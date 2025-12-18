@@ -1,30 +1,14 @@
+const withNextIntl = require('next-intl/plugin')(
+  // This is the default (also the `src` folder is supported out of the box)
+  './i18n.ts'
+);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  i18n: {
-    locales: ['en', 'bg'],
-    defaultLocale: 'en',
-    localeDetection: true,
-  },
-  async rewrites() {
-    return [
-      {
-        source: '/:path*',
-        destination: '/:path*',
-      },
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'header',
-            key: 'accept-language',
-            value: '(?<lang>.*?)',
-          },
-        ],
-        destination: '/:lang/:path*',
-      },
-    ];
+  images: {
+    domains: ['localhost'],
   },
 };
 
-module.exports = nextConfig;
+module.exports = withNextIntl(nextConfig);
