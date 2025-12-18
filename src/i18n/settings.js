@@ -1,6 +1,6 @@
-const defaultNS = "common";
-const fallbackLng = "en";
-const locales = [fallbackLng, "bg"];
+const defaultNS = 'common';
+const fallbackLng = 'en';
+const locales = [fallbackLng, 'bg'];
 
 function getOptions(lng = fallbackLng, ns = defaultNS) {
   return {

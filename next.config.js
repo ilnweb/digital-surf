@@ -2,26 +2,26 @@
 const nextConfig = {
   reactStrictMode: true,
   i18n: {
-    locales: ["en", "bg"],
-    defaultLocale: "en",
+    locales: ['en', 'bg'],
+    defaultLocale: 'en',
     localeDetection: true,
   },
   async rewrites() {
     return [
       {
-        source: "/:path*",
-        destination: "/:path*",
+        source: '/:path*',
+        destination: '/:path*',
       },
       {
-        source: "/:path*",
+        source: '/:path*',
         has: [
           {
-            type: "header",
-            key: "accept-language",
-            value: "(?<lang>.*?)",
+            type: 'header',
+            key: 'accept-language',
+            value: '(?<lang>.*?)',
           },
         ],
-        destination: "/:lang/:path*",
+        destination: '/:lang/:path*',
       },
     ];
   },

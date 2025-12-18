@@ -1,6 +1,6 @@
 [
   {
-    "img": "/assets/images/team/teamThumb1_1.jpg",  
+    "img": "/assets/images/team/teamThumb1_1.jpg",
     "title": "Masirul Islam",
     "desc": "co-Founder",
     "facebook": "#",
@@ -9,7 +9,7 @@
     "pinterest": "#"
   },
   {
-    "img": "/assets/images/team/teamThumb1_2.jpg",  
+    "img": "/assets/images/team/teamThumb1_2.jpg",
     "title": "Tonya Martin",
     "desc": "co-Founder",
     "facebook": "#",
@@ -18,16 +18,16 @@
     "pinterest": "#"
   },
   {
-    "img": "/assets/images/team/teamThumb1_3.jpg",  
+    "img": "/assets/images/team/teamThumb1_3.jpg",
     "title": "Stephan Bullok",
     "desc": "co-Founder",
     "facebook": "#",
     "twitter": "#",
     "linkedin": "#",
     "pinterest": "#"
-  },  
+  },
   {
-    "img": "/assets/images/team/teamThumb1_4.jpg",  
+    "img": "/assets/images/team/teamThumb1_4.jpg",
     "title": "Dianne Russell",
     "desc": "co-Founder",
     "facebook": "#",
@@ -36,21 +36,21 @@
     "pinterest": "#"
   },
   {
-    "img": "/assets/images/team/teamThumb1_5.jpg",  
+    "img": "/assets/images/team/teamThumb1_5.jpg",
     "title": "Annette Black",
     "desc": "co-Founder",
     "facebook": "#",
     "twitter": "#",
     "linkedin": "#",
     "pinterest": "#"
-  },  
+  },
   {
-    "img": "/assets/images/team/teamThumb1_6.jpg",  
+    "img": "/assets/images/team/teamThumb1_6.jpg",
     "title": "Jacob Jones",
     "desc": "co-Founder",
     "facebook": "#",
     "twitter": "#",
     "linkedin": "#",
     "pinterest": "#"
-  }  
+  }
 ]

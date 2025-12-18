@@ -12,7 +12,7 @@ export default createMiddleware({
   localePrefix,
 
   // Pathnames to match for internationalization
-  pathnames
+  pathnames,
 });
 
 export const config = {
@@ -27,6 +27,6 @@ export const config = {
     // Match the root path
     '/',
     // Match paths with a locale prefix
-    `/(en|bg)/:path*`
-  ]
+    `/(en|bg)/:path*`,
+  ],
 };
