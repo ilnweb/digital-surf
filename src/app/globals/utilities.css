@@ -1,0 +1,96 @@
+/* Global Utility Classes */
+
+/* Margin Top Utilities */
+.mt-6 {
+  margin-top: 4rem !important;
+} /* 64px */
+.mt-7 {
+  margin-top: 5rem !important;
+} /* 80px */
+.mt-8 {
+  margin-top: 6rem !important;
+} /* 96px */
+.mt-9 {
+  margin-top: 8rem !important;
+} /* 128px */
+
+/* Responsive Margin Top Utilities */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .mt-sm-6 {
+    margin-top: 4rem !important;
+  }
+  .mt-sm-7 {
+    margin-top: 5rem !important;
+  }
+  .mt-sm-8 {
+    margin-top: 6rem !important;
+  }
+  .mt-sm-9 {
+    margin-top: 8rem !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .mt-md-6 {
+    margin-top: 4rem !important;
+  }
+  .mt-md-7 {
+    margin-top: 5rem !important;
+  }
+  .mt-md-8 {
+    margin-top: 6rem !important;
+  }
+  .mt-md-9 {
+    margin-top: 8rem !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mt-lg-6 {
+    margin-top: 4rem !important;
+  }
+  .mt-lg-7 {
+    margin-top: 5rem !important;
+  }
+  .mt-lg-8 {
+    margin-top: 6rem !important;
+  }
+  .mt-lg-9 {
+    margin-top: 8rem !important;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mt-xl-6 {
+    margin-top: 4rem !important;
+  }
+  .mt-xl-7 {
+    margin-top: 5rem !important;
+  }
+  .mt-xl-8 {
+    margin-top: 6rem !important;
+  }
+  .mt-xl-9 {
+    margin-top: 8rem !important;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .mt-xxl-6 {
+    margin-top: 4rem !important;
+  }
+  .mt-xxl-7 {
+    margin-top: 5rem !important;
+  }
+  .mt-xxl-8 {
+    margin-top: 6rem !important;
+  }
+  .mt-xxl-9 {
+    margin-top: 8rem !important;
+  }
+}

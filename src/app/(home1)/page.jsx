@@ -2,6 +2,8 @@ import React from 'react';
 import HeroBanner1 from '../Components/HeroBanner/HeroBanner1';
 import Brand1 from '../Components/Brand/Brand1';
 import About1 from '../Components/About/About1';
+import About2 from '../Components/About/About2';
+
 import HowWork from '../Components/HowWork/HowWork';
 import Choose1 from '../Components/Choose/Choose1';
 import Feature1 from '../Components/Feature/Feature1';
@@ -32,9 +34,17 @@ const page = () => {
         img='/assets/images/intro/introThumb1_1.png'
       />
       {/* <Brand1 /> */}
-
-      {/* <HowWork /> */}
-      {/* <Choose1
+      <Feature1 />
+      {/* <Feature2 /> */}
+      <Cta1
+        subtitle='Our App'
+        title='Download our app and start your free trail to get started today!'
+        content='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised'
+        btnurl1='https://play.google.com/store'
+        btnurl2='https://www.apple.com/store'
+        img='/assets/images/cta/ctaThumb1_1.png'
+      />
+      <Choose1
         subtitle='App Advantage'
         title='Get Benefit By Using Trending Apps'
         content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly"
@@ -42,9 +52,8 @@ const page = () => {
         FeatureList2={['Cloud Storage', 'Strong Security']}
         btnname='Download App'
         btnurl='/about'
-      /> */}
-      <Feature1 />
-      <Counter1 />
+      />
+
       <About1
         img1='/assets/images/about/aboutThumb1_1.png'
         img2='/assets/images/about/aboutThumb1_2.png'
@@ -59,11 +68,14 @@ const page = () => {
         btnname='Discover More'
         btnurl='/about'
       />
+      <HowWork />
+      {/* <Counter1 /> */}
+      <Faq1 />
+      {/* <Testimonial /> */}
 
-      {/* <Faq1 /> */}
-      <Testimonial />
-      <Feature2 />
-      <Pricing1 />
+      {/* <Pricing1 /> */}
+
+      {/* <Blog1 /> */}
       <Cta1
         subtitle='Our App'
         title='Download our app and start your free trail to get started today!'
@@ -72,7 +84,6 @@ const page = () => {
         btnurl2='https://www.apple.com/store'
         img='/assets/images/cta/ctaThumb1_1.png'
       />
-      <Blog1 />
     </div>
   );
 };
