@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, btnurl }) => {
   return (
-    <section className='about-section fix'>
+    <section className='about-section fix mt-8'>
       <div className='about-container-wrapper style1'>
         <div className='container'>
           <div className='about-wrapper style1'>

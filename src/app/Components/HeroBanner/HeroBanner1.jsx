@@ -67,7 +67,7 @@ const HeroBanner1 = ({
                 <div className='col-xl-7 order-2 order-xl-1'>
                   <div className='intro-content'>
                     <div className='intro-section-title'>
-                      <div className='intro-subtitle'>
+                      {/* <div className='intro-subtitle'>
                         {parse(subtitle)}{' '}
                         <Image
                           src='/assets/images/icon/fireIcon.svg'
@@ -75,7 +75,7 @@ const HeroBanner1 = ({
                           width={16}
                           height={17}
                         />
-                      </div>
+                      </div> */}
                       <h1 className='intro-title wow fadeInUp' data-wow-delay='.2s'>
                         {title}
                       </h1>

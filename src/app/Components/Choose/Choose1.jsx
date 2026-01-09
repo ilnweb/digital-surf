@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname, btnurl }) => {
   return (
-    <section className='advantage-section fix'>
+    <section className='advantage-section fix mt-7'>
       <div className='advantage-container-wrapper style1'>
         <div className='container'>
           <div className='advantage-wrapper style1 section-padding'>

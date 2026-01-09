@@ -11,10 +11,7 @@ const Feature1 = () => {
             className='section-title text-center mxw-685 mx-auto wow fadeInUp'
             data-wow-delay='.2s'
           >
-            <SectionTitle
-              SubTitle='Why using our app'
-              Title='Our app is great for individuals, startups and enterprises'
-            ></SectionTitle>
+            <SectionTitle SubTitle='Why using our app' Title='What we offer'></SectionTitle>
           </div>
           <div className='wcu-wrapper style1'>
             <div className='row gy-5 d-flex justify-content-center'>
@@ -22,18 +19,18 @@ const Feature1 = () => {
                 <div className='wcu-content'>
                   <FeatureCard
                     img='/assets/images/icon/wcuIcon1_1.svg'
-                    title='High usability'
-                    content='There are many variations of passages of Lorem Ipsum'
+                    title='AI automations'
+                    content='Automate repetitive tasks with AI-powered workflows'
                   ></FeatureCard>
                   <FeatureCard
                     img='/assets/images/icon/wcuIcon1_2.svg'
-                    title='Action Reminder'
-                    content='There are many variations of passages of Lorem Ipsum'
+                    title='Web design'
+                    content='Great looking and competitive websites'
                   ></FeatureCard>
                   <FeatureCard
                     img='/assets/images/icon/wcuIcon1_3.svg'
-                    title='Merge Files'
-                    content='There are many variations of passages of Lorem Ipsum'
+                    title='Chat bots'
+                    content='Chat bots for customer support'
                   ></FeatureCard>
                 </div>
               </div>

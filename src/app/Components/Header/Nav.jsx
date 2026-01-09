@@ -6,7 +6,7 @@ export default function Nav({ setMobileToggle }) {
     <ul className='cs_nav_list fw-medium'>
       <li className='menu-item-has-children'>
         <Link href='/'>Home</Link>
-        <DropDown>
+        {/* <DropDown>
           <ul>
             <li>
               <Link href='/' onClick={() => setMobileToggle(false)}>
@@ -24,7 +24,7 @@ export default function Nav({ setMobileToggle }) {
               </Link>
             </li>
           </ul>
-        </DropDown>
+        </DropDown> */}
       </li>
       <li className='menu-item-has-children'>
         <Link href='#'>Pages</Link>

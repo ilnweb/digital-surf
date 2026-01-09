@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Cta1 = ({ subtitle, title, content, btnurl1, btnurl2, img }) => {
   return (
-    <section className='cta-section'>
+    <section className='cta-section mt-5'>
       <div className='cta-container-wrapper style1'>
         <div className='container'>
           <div className='cta-wrapper style1  section-padding fix'>
