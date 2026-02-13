@@ -1,12 +1,16 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
-const Cta1 = ({ subtitle, title, content, btnurl1, btnurl2, img }) => {
+const Cta1 = ({ btnurl1, btnurl2, img }) => {
+  const t = useTranslations('Cta1');
   return (
     <section className='cta-section mt-5'>
       <div className='cta-container-wrapper style1'>
         <div className='container'>
-          <div className='cta-wrapper style1  section-padding fix'>
+          <div className='cta-wrapper style1  section-padding fix' style={{ padding: '60px' }}>
             <div className='shape1 d-none d-xxl-block'>
               <Image
                 src='/assets/images/shape/ctaShape1_1.png'
@@ -45,7 +49,7 @@ const Cta1 = ({ subtitle, title, content, btnurl1, btnurl2, img }) => {
                   <div className='cta-content'>
                     <div className='section-title'>
                       <div className='subtitle text-white bg2 wow fadeInUp' data-wow-delay='.2s'>
-                        {subtitle}{' '}
+                        {t('subtitle')}{' '}
                         <Image
                           src='/assets/images/icon/fireIcon.svg'
                           alt='img'
@@ -54,38 +58,48 @@ const Cta1 = ({ subtitle, title, content, btnurl1, btnurl2, img }) => {
                         />
                       </div>
                       <h2 className='title text-white wow fadeInUp' data-wow-delay='.4s'>
-                        {title}
+                        {t('title')}
                       </h2>
                       <p
                         className='section-desc text-white mxw-651 wow fadeInUp'
                         data-wow-delay='.6s'
                       >
-                        {content}
+                        {t('content')}
                       </p>
                     </div>
-                    <Link className='playstore' href={btnurl1}>
-                      <Image
-                        src='/assets/images/cta/ctaplayStore1_1.png'
-                        alt='img'
-                        width={190}
-                        height={55}
-                      />
-                    </Link>
-                    <Link href={btnurl2}>
-                      <Image
-                        src='/assets/images/cta/ctaAppleStore1_1.png'
-                        alt='img'
-                        width={190}
-                        height={55}
-                      />
+                    <Link
+                      className='theme-btn bg-black text-white wow fadeInUp'
+                      data-wow-delay='.6s'
+                      href='/contact'
+                    >
+                      {t('buttonText')}
+                      <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='16'
+                        height='16'
+                        viewBox='0 0 16 16'
+                        fill='none'
+                      >
+                        <g clipPath='url(#clip0_43_54)'>
+                          <path
+                            d='M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z'
+                            fill='white'
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id='clip0_43_54'>
+                            <rect width='16' height='16' fill='white' />
+                          </clipPath>
+                        </defs>
+                      </svg>
                     </Link>
                   </div>
                 </div>
-                <div className='col-xl-4 order-1 order-xl-2'>
+                {/* <div className='col-xl-4 order-1 order-xl-2'>
                   <div className='cta-thumb wow fadeInUp' data-wow-delay='.2s'>
                     <Image src={img} alt='img' width={643} height={322} />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

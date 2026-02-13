@@ -2921,7 +2921,7 @@ input[type='radio']:checked ~ label::before {
   display: flex;
   align-items: center;
   gap: 19px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .fancy-box.style2 .content {
   max-width: 205px;
@@ -2929,11 +2929,11 @@ input[type='radio']:checked ~ label::before {
 .fancy-box.style2 .content h4 {
   color: var(--title);
   font-family: 'Urbanist', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 34px;
-  letter-spacing: -0.48px;
+  line-height: 28px;
+  letter-spacing: -0.36px;
   margin-bottom: 1px;
 }
 .fancy-box.style2 .content .text {
@@ -6910,7 +6910,7 @@ input.main-search-input::placeholder {
 
 /* 21.Wcu */
 .wcu-wrapper.style1 {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .wcu-wrapper.style1 .wcu-thumb {
   position: relative;
@@ -7163,7 +7163,7 @@ input.main-search-input::placeholder {
   position: absolute;
   z-index: 3;
   top: 17%;
-  left: 0px;
+  left: 100px;
   transform: translateY(-17%);
   border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -11527,10 +11527,7 @@ textarea.is-invalid {
   }
 }
 .cs_main_header_right .search-trigger {
-  color: var(--title);
-  font-size: 18px;
-  padding-right: 20px;
-  z-index: 1;
+  display: none !important;
 }
 .header_style_3 .cs_main_header_right .search-trigger {
   color: #fff;

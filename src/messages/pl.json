@@ -1,0 +1,149 @@
+{
+  "Index": {
+    "title": "Witaj w DigitalSurf",
+    "description": "Twój partner w transformacji cyfrowej",
+    "aboutLink": "Dowiedz się więcej o nas"
+  },
+  "Header": {
+    "getStarted": "Rozpocznij",
+    "searchPlaceholder": "Szukaj..."
+  },
+  "About1": {
+    "subtitle": "Automatyzuj wsparcie i skaluj sprzedaż szybko",
+    "title": "Masz dość tracenia leadów, gdy śpisz?",
+    "content": "Nasze chatboty AI zapewniają natychmiastowe, ludzkie odpowiedzi dla Twoich klientów 24/7. Przekształć swoją stronę internetową ze statycznej strony w maszynę do sprzedaży o wysokiej konwersji, która kwalifikuje leady, rezerwuje spotkania i automatycznie rozwiązuje zgłoszenia wsparcia.",
+    "features": {
+      "0": "Maksymalizuj ROI z automatyczną kwalifikacją leadów.",
+      "1": "Globalny zasięg z natychmiastowym 24/7 wielojęzycznym wsparciem.",
+      "2": "Skontaktuj się z naszymi ekspertami w celu wdrożenia Twojego rozwiązania"
+    },
+    "buttonText": "Zacznij budować teraz"
+  },
+  "Choose1": {
+    "subtitle": "Zalety aplikacji",
+    "title": "Zmień swoją stronę internetową w silnik wzrostu",
+    "content": "W świecie cyfrowym powolna lub przestarzała strona internetowa to obciążenie. Tworzymy cyfrowe doświadczenia o wysokiej wydajności, które nie tylko wyglądają oszałamiająco, ale są zaprojektowane do konwersji. Od błyskawicznego czasu ładowania po zaawansowane strategie SEO, zapewniamy, że Twoja firma pozostaje na szczycie wyników wyszukiwania i przed konkurencją.",
+    "features": {
+      "0": "Intuicyjny UX design",
+      "1": "SEO zoptymalizowane",
+      "2": "AI optymalizacja",
+      "3": "Solidne bezpieczeństwo"
+    },
+    "buttonText": "Zbuduj swoją stronę"
+  },
+  "Cta1": {
+    "subtitle": "Cyfrowy wzrost",
+    "title": "Rozpocznij swoją biznesową podróż z nami i skaluj już dziś!",
+    "content": "Odblokuj pełny potencjał swojej marki dzięki naszym niestandardowym strategiom cyfrowym. Nie tylko tworzymy narzędzia; optymalizujemy cały Twój przepływ pracy, aby zapewnić, że każde kliknięcie zamienia się w klienta, a każdy proces generuje więcej przychodów dla Twojego biznesu.",
+    "buttonText": "Skontaktuj się z nami"
+  },
+  "About": {
+    "title": "O nas",
+    "description": "Dowiedz się więcej o DigitalSurf i naszej misji transformacji biznesów poprzez innowacyjne rozwiązania cyfrowe."
+  },
+  "Contact": {
+    "title": "Skontaktuj się z nami",
+    "description": "Skontaktuj się z naszym zespołem, aby omówić, jak możemy pomóc w rozwoju Twojego biznesu dzięki rozwiązaniom AI."
+  },
+  "HeroBanner": {
+    "title": "Rozwijaj swój biznes z naszymi rozwiązaniami AI.",
+    "content": "W DigitalSurf transformujemy biznesy za pomocą najnowocześniejszych rozwiązań AI. Nasze doświadczenie w automatyzacji i optymalizacji pomaga usprawnić operacje, poprawić wydajność strony internetowej i wdrożyć inteligentną automatyzację procesów.",
+    "btnname": "Zacznij teraz",
+    "btntwo": "Dowiedz się więcej"
+  },
+  "Feature1": {
+    "subtitle": "Wybierz nasze usługi",
+    "title": "Co oferujemy",
+    "features": {
+      "0": {
+        "title": "Automatyzacje AI",
+        "content": "Automatyzacje AI dla powtarzalnych zadań"
+      },
+      "1": {
+        "title": "Projektowanie stron",
+        "content": "Nowoczesny i funkcjonalny projekt stron"
+      },
+      "2": {
+        "title": "Chatboty",
+        "content": "Inteligentne chatboty AI do wsparcia"
+      },
+      "3": {
+        "title": "SEO i AI SEO",
+        "content": "Optymalizacja SEO ze strategiami AI"
+      },
+      "4": {
+        "title": "Udostępnianie społecznościowe",
+        "content": "Zintegrowane udostępnianie w mediach społecznościowych"
+      },
+      "5": {
+        "title": "Niestandardowe skróty",
+        "content": "Niestandardowe rozwiązania dla Twojego biznesu"
+      }
+    }
+  },
+  "HowWork": {
+    "subtitle": "Jak to działa",
+    "title": "Optymalizuj operacje biznesowe w trzech prostych krokach!",
+    "step1": {
+      "title": "KROK - 01",
+      "heading": "Konsultacja i strategia",
+      "description": "Analizujemy Twój obecny przepływ pracy, aby zidentyfikować możliwości wzrostu i luki cyfrowe."
+    },
+    "step2": {
+      "title": "KROK - 02",
+      "heading": "Niestandardowa integracja",
+      "description": "Nasz zespół buduje i wdraża dostosowane rozwiązania AI i internetowe zaprojektowane dla Twojej marki."
+    },
+    "step3": {
+      "title": "KROK - 03",
+      "heading": "Uruchomienie i skalowanie",
+      "description": "Uruchom swoją nową ekosystem cyfrowy i obserwuj, jak efektywność Twojego biznesu rośnie."
+    }
+  },
+  "Choose4": {
+    "subtitle": "Personalizacje i analiza",
+    "title": "Zarządzaj rozwojem swojego biznesu z łatwością",
+    "text1": "Nasza automatyzacja AI przejmuje powtarzalne zadania — od wprowadzania danych po pielęgnowanie leadów — pozwalając Ci skupić się na rozwoju. Działamy 24/7 w tle.",
+    "text2": "Budujemy niestandardowe rozwiązania AI, które synchronizują Twoje dane natychmiast. Wyeliminuj błędy i zmniejsz koszty.",
+    "buttonText": "Zoptymalizuj mój biznes",
+    "stats": {
+      "hoursSaved": "Zaoszczędzone godziny",
+      "tasksAutomated": "Automatyzacje",
+      "seamlessTriggers": "Aktywne procesy"
+    }
+  },
+  "Faq": {
+    "subtitle": "Najczęstsze pytania",
+    "title": "Najczęściej zadawane pytania",
+    "description": "Rozumiemy, że integracja nowych rozwiązań cyfrowych może budzić pytania. Poniżej znajdują się najczęstsze zapytania dotyczące tego, jak nasza automatyzacja oparta na AI i niestandardowy projektowanie stron mogą przekształcić efektywność Twojego biznesu i zaangażowanie klientów.",
+    "faq1": {
+      "question": "Jak AI chatbot faktycznie może poprawić moje sprzedaż?",
+      "answer": "Nasze chatboty nie są tylko do wsparcia; działają jako 24/7 agenci sprzedaży. Natychmiastowo kwalifikują leady, odpowiadają na pytania o produkty i prowadzą użytkowników do kasy, usuwając tarcia z procesu zakupowego i zapewniając, że żaden potencjalny klient nie pozostanie bez opieki."
+    },
+    "faq2": {
+      "question": "Czy niestandardowy projekt strony naprawdę wpłynie na moje rankingi SEO?",
+      "answer": "Absolutnie. Skupiamy się na \"Core Web Vitals\"—szybkości, responsywności mobilnej i czystym kodzie. Dobrze zaprojektowana strona zmniejsza współczynnik odrzuceń i zwiększa czas przebywania, co są krytyczne sygnały, które informują wyszukiwarki, że Twoja strona jest wysokiej jakości i zasługuje na topową pozycję."
+    },
+    "faq3": {
+      "question": "Czy trudno jest zintegrować automatyzację AI z moim obecnym przepływem pracy?",
+      "answer": "Wcale nie. Nasze podejście \"Krok po kroku\" zapewnia bezproblemową przejście. Budujemy nasze rozwiązania tak, aby podłączały się bezpośrednio do Twoich istniejących narzędzi CRM i komunikacyjnych, co oznacza, że otrzymujesz korzyści z zaawansowanej automatyzacji bez potrzeby przebudowywania całego biznesu od zera."
+    },
+    "Faq": {
+      "subtitle": "Najczęstsze pytania 🔥",
+      "title": "Najczęściej zadawane pytania",
+      "description": "Rozumiemy, że integracja nowych rozwiązań cyfrowych może budzić pytania. Poniżej znajdują się najczęstsze zapytania dotyczące tego, jak nasza automatyzacja oparta na AI i niestandardowy projektowanie stron mogą przekształcić efektywność Twojego biznesu i zaangażowanie klientów.",
+      "faq1": {
+        "question": "Jak AI chatbot faktycznie może poprawić moje sprzedaż?",
+        "answer": "Nasze chatboty nie są tylko do wsparcia; działają jako 24/7 agenci sprzedaży. Natychmiastowo kwalifikują leady, odpowiadają na pytania o produkty i prowadzą użytkowników do kasy, usuwając tarcia z procesu zakupowego i zapewniając, że żaden potencjalny klient nie pozostanie bez opieki."
+      },
+      "faq2": {
+        "question": "Czy niestandardowy projekt strony naprawdę wpłynie na moje rankingi SEO?",
+        "answer": "Absolutnie. Skupiamy się na \"Core Web Vitals\"—szybkości, responsywności mobilnej i czystym kodzie. Dobrze zaprojektowana strona zmniejsza współczynnik odrzuceń i zwiększa czas przebywania, co są krytyczne sygnały, które informują wyszukiwarki, że Twoja strona jest wysokiej jakości i zasługuje na topową pozycję."
+      },
+      "faq3": {
+        "question": "Czy trudno jest zintegrować automatyzację AI z moim obecnym przepływem pracy?",
+        "answer": "Wcale nie. Nasze podejście \"Krok po kroku\" zapewnia bezproblemową przejście. Budujemy nasze rozwiązania tak, aby podłączały się bezpośrednio do Twoich istniejących narzędzi CRM i komunikacyjnych, co oznacza, że otrzymujesz korzyści z zaawansowanej automatyzacji bez potrzeby przebudowywania całego biznesu od zera."
+      }
+    }
+  }
+}
