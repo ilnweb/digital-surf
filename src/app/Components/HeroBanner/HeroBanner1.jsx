@@ -1,14 +1,12 @@
+'use client';
+
 import parse from 'html-react-parser';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 const HeroBanner1 = ({
-  subtitle,
-  title,
-  content,
-  btnname,
   btnurl,
-  btntwo,
   btn2url,
   cusimg,
   cusnumber,
@@ -17,6 +15,7 @@ const HeroBanner1 = ({
   ratingcon,
   img,
 }) => {
+  const t = useTranslations('HeroBanner');
   return (
     <section className='intro-section'>
       <div className='intro-container-wrapper style1'>
@@ -77,15 +76,15 @@ const HeroBanner1 = ({
                         />
                       </div> */}
                       <h1 className='intro-title wow fadeInUp' data-wow-delay='.2s'>
-                        {title}
+                        {t('title')}
                       </h1>
                       <p className='intro-desc wow fadeInUp' data-wow-delay='.4s'>
-                        {content}
+                        {t('content')}
                       </p>
                     </div>
                     <div className='btn-wrapper style1 wow fadeInUp' data-wow-delay='.6s'>
                       <Link className='theme-btn' href={btnurl}>
-                        {btnname}
+                        {t('btnname')}
                         <svg
                           xmlns='http://www.w3.org/2000/svg'
                           width='16'
@@ -111,7 +110,7 @@ const HeroBanner1 = ({
                         data-wow-delay='.2s'
                         href={btn2url}
                       >
-                        {btntwo}
+                        {t('btntwo')}
                         <svg
                           xmlns='http://www.w3.org/2000/svg'
                           width='16'
@@ -206,13 +205,7 @@ const HeroBanner1 = ({
                         height={537}
                       />
                     </div>
-                    <Image
-                      className='main-thumb img-custom-anim-right wow fadeInUp'
-                      src={img}
-                      alt='img'
-                      width={700}
-                      height={600}
-                    />
+                    <Image className='main-thumb ' src={img} alt='img' width={600} height={450} />
                   </div>
                 </div>
               </div>

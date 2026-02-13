@@ -1,7 +1,11 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
-const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, btnurl }) => {
+const About1 = ({ img1, img2, btnurl }) => {
+  const t = useTranslations('About1');
   return (
     <section className='about-section fix mt-8'>
       <div className='about-container-wrapper style1'>
@@ -55,7 +59,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                 <div className='about-content'>
                   <div className='section-title'>
                     <div className='subtitle wow fadeInUp' data-wow-delay='.2s'>
-                      {subtitle}{' '}
+                      {t('subtitle')}{' '}
                       <Image
                         src='/assets/images/icon/fireIcon.svg'
                         alt='img'
@@ -64,14 +68,14 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                       />
                     </div>
                     <h2 className='title wow fadeInUp' data-wow-delay='.4s'>
-                      {title}
+                      {t('title')}
                     </h2>
                     <p className='section-desc wow fadeInUp' data-wow-delay='.6s'>
-                      {content}
+                      {t('content')}
                     </p>
                   </div>
                   <ul className='checklist style1 wow fadeInUp' data-wow-delay='.2s'>
-                    {FeatureList?.map((item, index) => (
+                    {[0, 1, 2].map(index => (
                       <li key={index}>
                         <Image
                           src='/assets/images/icon/checkmarkIcon.svg'
@@ -79,12 +83,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                           width={30}
                           height={30}
                         />{' '}
-                        {item}
+                        {t(`features.${index}`)}
                       </li>
                     ))}
                   </ul>
                   <Link className='theme-btn wow fadeInUp' data-wow-delay='.2s' href={btnurl}>
-                    {btnname}
+                    {t('buttonText')}
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='16'

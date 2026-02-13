@@ -1,44 +1,40 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 const Choose4 = () => {
+  const t = useTranslations('Choose4');
+
   return (
     <section className='wcu-section section-padding pt-0 fix'>
       <div className='wcu-container-wrapper style3'>
         <div className='container'>
           <div className='wcu-wrapper style3'>
-            <div className='row gy-5 gx-60'>
+            <div className='row gy-5 gx-60 flex-row-reverse'>
               <div className='col-xl-6'>
                 <div className='wcu-content'>
                   <div className='section-title'>
                     <div className='subtitle wow fadeInUp' data-wow-delay='.2s'>
-                      Customizations & Analysis{' '}
-                      <Image
-                        src='/assets/images/icon/fireIcon.svg'
-                        alt='img'
-                        width={16}
-                        height={17}
-                      />
+                      {t('subtitle')} 🔥
                     </div>
                     <h2 className='title wow fadeInUp' data-wow-delay='.4s'>
-                      Manage your Traffic Growth Easily
+                      {t('title')}
                     </h2>
                     <p className='text1 wow fadeInUp' data-wow-delay='.6s'>
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some form, by injected humour, or
-                      randomised words which do not look even
+                      {t('text1')}
                     </p>
                     <p className='text2 wow fadeInUp' data-wow-delay='.8s'>
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some form,
+                      {t('text2')}
                     </p>
                   </div>
                   <Link
                     className='theme-btn rounded-5 wow fadeInUp'
                     data-wow-delay='.4s'
-                    href='/about'
+                    href='/contact'
                   >
-                    View All Project
+                    {t('buttonText')}
                     <svg
                       className='ms-2'
                       xmlns='http://www.w3.org/2000/svg'
@@ -63,21 +59,21 @@ const Choose4 = () => {
                   <div className='counter-box-wrapper style3'>
                     <div className='counter-box style3 wow fadeInUp' data-wow-delay='.2s'>
                       <div className='counter'>
-                        <span className='counter-nubmer'>56</span> <span>k+</span>
+                        <span className='counter-nubmer'>2.5</span> <span>k+</span>
                       </div>
-                      <p className='text'>Comparers</p>
+                      <p className='text'>{t('stats.hoursSaved')}</p>
                     </div>
                     <div className='counter-box style3 wow fadeInUp' data-wow-delay='.4s'>
                       <div className='counter'>
-                        <span className='counter-nubmer'>126</span> <span>k+</span>
+                        <span className='counter-nubmer'>15</span> <span>k+</span>
                       </div>
-                      <p className='text'>Use People</p>
+                      <p className='text'>{t('stats.tasksAutomated')}</p>
                     </div>
                     <div className='counter-box style3 wow fadeInUp' data-wow-delay='.6s'>
                       <div className='counter'>
-                        <span className='counter-nubmer'>1.2</span> <span>M+</span>
+                        <span className='counter-nubmer'>120</span> <span>+</span>
                       </div>
-                      <p className='text'>Download It</p>
+                      <p className='text'>{t('stats.seamlessTriggers')}</p>
                     </div>
                   </div>
                 </div>
@@ -87,12 +83,14 @@ const Choose4 = () => {
                   <div
                     className='main-thumb img-custom-anim-left wow fadeInUp'
                     data-wow-delay='.4s'
+                    style={{ width: '100%', maxWidth: 'none', marginLeft: '-50px' }}
                   >
                     <Image
                       src='/assets/images/wcu/wcuThumb3_1.png'
                       alt='img'
-                      width={386}
-                      height={503}
+                      width={800}
+                      height={600}
+                      style={{ width: '100%', height: 'auto' }}
                     />
                   </div>
                   <div className='thumb2'>
@@ -103,7 +101,7 @@ const Choose4 = () => {
                       height={340}
                     />
                   </div>
-                  <div className='thumb-box float-bob-y wow fadeInUp' data-wow-delay='.4s'>
+                  {/* <div className='thumb-box float-bob-y wow fadeInUp' data-wow-delay='.4s'>
                     <h5>Traffic Growth</h5>
                     <p className='text'>Total traffic growth of 45%</p>
                     <div className='shape-box'>
@@ -118,7 +116,7 @@ const Choose4 = () => {
                         <h3>86%</h3>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

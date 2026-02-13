@@ -5,11 +5,13 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import data from '../../Data/faq1.json';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const Faq1 = () => {
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const t = useTranslations('Faq');
 
   const handleItemClick = index => {
     if (index === openItemIndex) {
@@ -26,8 +28,7 @@ const Faq1 = () => {
   }, [firstItemOpen]);
 
   const FaqContent = {
-    Content:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly',
+    Content: t('Faq.description'),
     img1: '/assets/images/faq/faqThumb1_2.png',
     img2: '/assets/images/faq/faqThumb1_1.png',
   };
@@ -40,7 +41,7 @@ const Faq1 = () => {
             <div className='col-xl-6'>
               <div className='faq-content style1'>
                 <div className='section-title'>
-                  <SectionTitle SubTitle='FAQs' Title='Frequently Ask Questions'></SectionTitle>
+                  <SectionTitle SubTitle={t('Faq.subtitle')} Title={t('Faq.title')}></SectionTitle>
                   <p className='section-desc wow fadeInUp' data-wow-delay='.6s'>
                     {FaqContent.Content}
                   </p>
@@ -62,7 +63,7 @@ const Faq1 = () => {
                             aria-expanded='true'
                             aria-controls='faq1'
                           >
-                            {item.title}
+                            {t(`Faq.faq${index + 1}.question`)}
                           </button>
                         </h5>
                         <div
@@ -71,7 +72,7 @@ const Faq1 = () => {
                           className='accordion-collapse collapse'
                           data-bs-parent='#accordion'
                         >
-                          <div className='accordion-body'>{item.desc}</div>
+                          <div className='accordion-body'>{t(`Faq.faq${index + 1}.answer`)}</div>
                         </div>
                       </div>
                     ))}
@@ -85,11 +86,11 @@ const Faq1 = () => {
                   className='main-thumb  wow fadeInUp'
                   src={FaqContent.img1}
                   alt='img'
-                  width={791}
+                  width={691}
                   height={679}
                 />
                 <div className='absolute-thumb float-bob-x'>
-                  <Image src={FaqContent.img2} alt='img' width={236} height={474} />
+                  <Image src={FaqContent.img2} alt='img' width={150} height={150} />
                 </div>
               </div>
             </div>

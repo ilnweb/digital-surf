@@ -1,7 +1,11 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
-const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname, btnurl }) => {
+const Choose1 = ({ btnurl }) => {
+  const t = useTranslations('Choose1');
   return (
     <section className='advantage-section fix mt-7'>
       <div className='advantage-container-wrapper style1'>
@@ -13,7 +17,7 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                   <div className='advantage-content'>
                     <div className='section-title wow fadeInUp' data-wow-delay='.2s'>
                       <div className='subtitle'>
-                        {subtitle}{' '}
+                        {t('subtitle')}{' '}
                         <Image
                           src='/assets/images/icon/fireIcon.svg'
                           alt='img'
@@ -21,12 +25,12 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                           height={17}
                         />
                       </div>
-                      <h2 className='title'>{title}</h2>
-                      <p className='section-desc'>{content}</p>
+                      <h2 className='title'>{t('title')}</h2>
+                      <p className='section-desc'>{t('content')}</p>
                     </div>
                     <div className='checklist-wrapper style1 wow fadeInUp' data-wow-delay='.4s'>
                       <ul className='checklist style1'>
-                        {FeatureList?.map((item, index) => (
+                        {[0, 1].map(index => (
                           <li key={index}>
                             <Image
                               src='/assets/images/icon/checkmarkIcon.svg'
@@ -34,12 +38,12 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                               width={30}
                               height={30}
                             />{' '}
-                            {item}
+                            {t(`features.${index}`)}
                           </li>
                         ))}
                       </ul>
                       <ul className='checklist style1'>
-                        {FeatureList2?.map((item, index) => (
+                        {[2, 3].map(index => (
                           <li key={index}>
                             <Image
                               src='/assets/images/icon/checkmarkIcon.svg'
@@ -47,14 +51,14 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                               width={30}
                               height={30}
                             />
-                            {item}{' '}
+                            {t(`features.${index}`)}{' '}
                           </li>
                         ))}
                       </ul>
                     </div>
                     <Link className='theme-btn wow fadeInUp' data-wow-delay='.6s' href={btnurl}>
                       {' '}
-                      {btnname}
+                      {t('buttonText')}
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
                         width='16'
@@ -88,11 +92,11 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                       <Image
                         src='/assets/images/advantage/advantageThumb1_1.png'
                         alt='img'
-                        width={366}
-                        height={591}
+                        width={500}
+                        height={500}
                       />
                     </div>
-                    <div
+                    {/* <div
                       className='thumb2 img-custom-anim-right wow fadeInRight'
                       data-wow-delay='.4s'
                       data-tilt
@@ -104,7 +108,7 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                         width={369}
                         height={589}
                       />
-                    </div>
+                    </div> */}
                     <div className='shape1'>
                       <Image
                         src='/assets/images/shape/advanceThumbShape1_1.png'

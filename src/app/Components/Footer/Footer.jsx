@@ -20,7 +20,7 @@ const Footer = () => {
               <div className='single-footer-widget'>
                 <div className='widget-head'>
                   <Link href='/'>
-                    <Image src='/assets/images/logo/logo.svg' alt='img' width={177} height={54} />
+                    <Image src='/assets/images/logo/logo.png' alt='img' width={240} height={45} />
                   </Link>
                 </div>
                 <div className='footer-content'>

@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Nav from './Nav';
 import Image from 'next/image';
 import Link from 'next/link';
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 export default function Header4({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
@@ -43,7 +44,7 @@ export default function Header4({ variant }) {
             <div className='cs_main_header_in'>
               <div className='cs_main_header_left'>
                 <Link className='cs_site_branding' href='/'>
-                  <Image src='/assets/images/logo/logo.svg' alt='img' width={177} height={54} />
+                  <Image src='/assets/images/logo/logo.png' alt='img' width={240} height={45} />
                 </Link>
               </div>
               <div className='cs_main_header_center'>
@@ -59,6 +60,7 @@ export default function Header4({ variant }) {
               </div>
               <div className='cs_main_header_right'>
                 <div className='header-btn d-flex align-items-center'>
+                  <LanguageSwitcher />
                   <a
                     onClick={() => setSearchToggle(!searchToggle)}
                     className='search-trigger search-icon'

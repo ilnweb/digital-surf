@@ -1,89 +1,49 @@
 import React from 'react';
 import HeroBanner1 from '../Components/HeroBanner/HeroBanner1';
-import Brand1 from '../Components/Brand/Brand1';
 import About1 from '../Components/About/About1';
-import About2 from '../Components/About/About2';
-
 import HowWork from '../Components/HowWork/HowWork';
 import Choose1 from '../Components/Choose/Choose1';
+import Choose4 from '../Components/Choose/Choose4';
 import Feature1 from '../Components/Feature/Feature1';
-import Counter1 from '../Components/Counter/Counter1';
 import Faq1 from '../Components/Faq/Faq1';
-import Testimonial from '../Components/Testimonial/Testimonial';
-import Feature2 from '../Components/Feature/Feature2';
-import Pricing1 from '../Components/Pricing/Pricing1';
 import Cta1 from '../Components/Cta/Cta1';
-import Blog1 from '../Components/Blog/Blog1';
 
 const page = () => {
   return (
     <div>
       <HeroBanner1
-        subtitle='<span>News!</span>Find Your Solution'
-        title='Make your business grow with our AI solutions.'
-        content='At DigitalSurf, we transform businesses with cutting-edge AI solutions. Our expertise in automation and optimization helps you streamline operations, enhance website performance, and implement intelligent process automation. From smart transportation logistics to AI-powered digital experiences, we deliver tailored solutions that drive growth, efficiency, and competitive advantage. Let us help you harness the power of AI to revolutionize your business operations.'
-        btnname='Get Started Now'
         btnurl='/contact'
-        btntwo='Learn More'
         btn2url='/about'
-        cusimg='/assets/images/intro/introProfileThumb1_1.png'
-        cusnumber='2,291'
-        cuscontent='Happy Customers'
-        rating='4.8/5'
-        ratingcon='Rating'
         img='/assets/images/intro/introThumb1_1.png'
       />
-      {/* <Brand1 /> */}
       <Feature1 />
-      {/* <Feature2 /> */}
-      <Cta1
-        subtitle='Our App'
-        title='Download our app and start your free trail to get started today!'
-        content='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised'
-        btnurl1='https://play.google.com/store'
-        btnurl2='https://www.apple.com/store'
-        img='/assets/images/cta/ctaThumb1_1.png'
-      />
-      <Choose1
-        subtitle='App Advantage'
-        title='Get Benefit By Using Trending Apps'
-        content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly"
-        FeatureList={['Friendly Design', 'SEO Optimized']}
-        FeatureList2={['Cloud Storage', 'Strong Security']}
-        btnname='Download App'
-        btnurl='/about'
-      />
+      <div style={{ marginTop: '160px', marginBottom: '160px' }}>
+        <Cta1 />
+      </div>
 
-      <About1
-        img1='/assets/images/about/aboutThumb1_1.png'
-        img2='/assets/images/about/aboutThumb1_2.png'
-        subtitle='About Our App'
-        title='Simple Reports & Analytics Backdown As it'
-        content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use"
-        FeatureList={[
-          'With our Technological and Marketing Solutions.',
-          'We are trusted all over the world.',
-          'Start Your 14 Days Free Trials Today!',
-        ]}
-        btnname='Discover More'
-        btnurl='/about'
-      />
-      <HowWork />
-      {/* <Counter1 /> */}
-      <Faq1 />
-      {/* <Testimonial /> */}
+      <div style={{ marginTop: '260px', marginBottom: '160px' }}>
+        <About1
+          img1='/assets/images/about/aboutThumb1_1.png'
+          img2='/assets/images/about/aboutThumb1_2.png'
+          btnurl='/about'
+        />
+      </div>
 
-      {/* <Pricing1 /> */}
+      <div style={{ marginTop: '120px', marginBottom: '120px' }}>
+        <Choose1 btnurl='/about' />
+      </div>
+      <Choose4 />
+      <div style={{ marginTop: '120px', marginBottom: '120px' }}>
+        <HowWork />
+      </div>
 
-      {/* <Blog1 /> */}
-      <Cta1
-        subtitle='Our App'
-        title='Download our app and start your free trail to get started today!'
-        content='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised'
-        btnurl1='https://play.google.com/store'
-        btnurl2='https://www.apple.com/store'
-        img='/assets/images/cta/ctaThumb1_1.png'
-      />
+      <div style={{ marginTop: '60px', marginBottom: '120px' }}>
+        <Faq1 />
+      </div>
+
+      <div style={{ marginTop: '120px', marginBottom: '120px' }}>
+        <Cta1 />
+      </div>
     </div>
   );
 };

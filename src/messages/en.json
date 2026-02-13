@@ -3,5 +3,147 @@
     "title": "Welcome to DigitalSurf",
     "description": "Your digital transformation partner",
     "aboutLink": "Learn more about us"
+  },
+  "Header": {
+    "getStarted": "Get Started",
+    "searchPlaceholder": "Search..."
+  },
+  "About1": {
+    "subtitle": "Automate Support & Scale Sales Fast",
+    "title": "Tired of losing leads while you sleep?",
+    "content": "Our AI chatbots provide instant, human-like responses to your customers 24/7. Transform your website from a static page into a high-converting sales machine that qualifies leads, books appointments, and resolves support tickets automatically.",
+    "features": {
+      "0": "Maximize ROI with automated lead qualification.",
+      "1": "Global Reach with instant 24/7 multi-language support.",
+      "2": "Contact our experts to implement your solution"
+    },
+    "buttonText": "Start Building Now"
+  },
+  "Choose1": {
+    "subtitle": "App Advantage",
+    "title": "Turn Your Website Into a Growth Engine",
+    "content": "In a digital-first world, a slow or outdated website is a liability. We build high-performance digital experiences that don't just look stunning but are engineered to convert. From lightning-fast load times to advanced SEO strategies, we ensure your business stays at the top of search results and ahead of the competition.",
+    "features": {
+      "0": "Intuitive UX Design",
+      "1": "SEO Optimized",
+      "2": "AI Optimization",
+      "3": "Robust Security"
+    },
+    "buttonText": "Build Your Site"
+  },
+  "Cta1": {
+    "subtitle": "Digital Growth",
+    "title": "Start your business journey with us and scale today!",
+    "content": "Unlock the full potential of your brand with our custom digital strategies. We don't just build tools; we optimize your entire workflow to ensure every click turns into a customer and every process drives more revenue for your business.",
+    "buttonText": "Get in Touch"
+  },
+  "About": {
+    "title": "About Us",
+    "description": "Learn more about DigitalSurf and our mission to transform businesses through innovative digital solutions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team to discuss how we can help grow your business with AI-powered solutions."
+  },
+  "HeroBanner": {
+    "title": "Make your business grow with our AI solutions.",
+    "content": "At DigitalSurf, we transform businesses with cutting-edge AI solutions. Our expertise in automation and optimization helps you streamline operations, enhance website performance, and implement intelligent process automation.",
+    "btnname": "Get Started Now",
+    "btntwo": "Learn More"
+  },
+  "Feature1": {
+    "subtitle": "Choose our services",
+    "title": "What we offer",
+    "features": {
+      "0": {
+        "title": "AI automations",
+        "content": "AI automations for repetitive tasks"
+      },
+      "1": {
+        "title": "Web design",
+        "content": "Modern and functional web design"
+      },
+      "2": {
+        "title": "Chat bots",
+        "content": "Intelligent AI chatbots for support"
+      },
+      "3": {
+        "title": "SEO and AI SEO",
+        "content": "SEO optimization with AI strategies"
+      },
+      "4": {
+        "title": "Social Share",
+        "content": "Integrated social media sharing"
+      },
+      "5": {
+        "title": "Custom Shortcuts",
+        "content": "Custom solutions for your business"
+      }
+    }
+  },
+  "HowWork": {
+    "subtitle": "How It Works",
+    "title": "Optimize Your Business Operations In Three Simple Steps!",
+    "step1": {
+      "title": "STEP - 01",
+      "heading": "Consult & Strategize",
+      "description": "We analyze your current workflow to identify growth opportunities and digital gaps."
+    },
+    "step2": {
+      "title": "STEP - 02",
+      "heading": "Custom Integration",
+      "description": "Our team builds and deploys tailored AI and web solutions designed for your brand."
+    },
+    "step3": {
+      "title": "STEP - 03",
+      "heading": "Launch & Scale",
+      "description": "Go live with your new digital ecosystem and watch your business efficiency soar."
+    }
+  },
+  "Choose4": {
+    "subtitle": "Customizations & Analysis",
+    "title": "Manage Your Business Growth Easily",
+    "text1": "Our AI automation handles repetitive tasks—from data entry to lead nurturing—so you can focus on growth. We work 24/7 in the background.",
+    "text2": "We build custom AI solutions that sync your data instantly. Eliminate errors and reduce costs.",
+    "buttonText": "Optimize My Business",
+    "stats": {
+      "hoursSaved": "Hours Saved",
+      "tasksAutomated": "Automated Tasks",
+      "seamlessTriggers": "Active Workflows"
+    }
+  },
+  "Faq": {
+    "subtitle": "FAQs",
+    "title": "Frequently Asked Questions",
+    "description": "We understand that integrating new digital solutions can raise questions. Below are the most common inquiries regarding how our AI-driven automation and bespoke web design can transform your business efficiency and customer engagement.",
+    "faq1": {
+      "question": "How can an AI Chatbot actually improve my sales?",
+      "answer": "Our chatbots aren't just for support; they act as 24/7 sales agents. By instantly qualifying leads, answering product questions, and guiding users to checkout, they remove friction from the buying process and ensure no potential customer is left waiting."
+    },
+    "faq2": {
+      "question": "Will a custom web design really affect my SEO rankings?",
+      "answer": "Absolutely. We focus on \"Core Web Vitals\"—speed, mobile responsiveness, and clean code. A well-designed site reduces bounce rates and increases dwell time, which are critical signals that tell search engines your site is high-quality and deserves a top spot."
+    },
+    "faq3": {
+      "question": "Is it difficult to integrate AI automation into my current workflow?",
+      "answer": "Not at all. Our \"Step-by-Step\" approach ensures a seamless transition. We build our solutions to plug directly into your existing CRM and communication tools, meaning you get the benefits of advanced automation without having to rebuild your entire business from scratch."
+    },
+    "Faq": {
+      "subtitle": "FAQs 🔥",
+      "title": "Frequently Asked Questions",
+      "description": "We understand that integrating new digital solutions can raise questions. Below are the most common inquiries regarding how our AI-driven automation and bespoke web design can transform your business efficiency and customer engagement.",
+      "faq1": {
+        "question": "How can an AI Chatbot actually improve my sales?",
+        "answer": "Our chatbots aren't just for support; they act as 24/7 sales agents. By instantly qualifying leads, answering product questions, and guiding users to checkout, they remove friction from the buying process and ensure no potential customer is left waiting."
+      },
+      "faq2": {
+        "question": "Will a custom web design really affect my SEO rankings?",
+        "answer": "Absolutely. We focus on \"Core Web Vitals\"—speed, mobile responsiveness, and clean code. A well-designed site reduces bounce rates and increases dwell time, which are critical signals that tell search engines your site is high-quality and deserves a top spot."
+      },
+      "faq3": {
+        "question": "Is it difficult to integrate AI automation into my current workflow?",
+        "answer": "Not at all. Our \"Step-by-Step\" approach ensures a seamless transition. We build our solutions to plug directly into your existing CRM and communication tools, meaning you get the benefits of advanced automation without having to rebuild your entire business from scratch."
+      }
+    }
   }
 }
