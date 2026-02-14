@@ -33,13 +33,109 @@
   },
   "Cta1": {
     "subtitle": "Digital Growth",
-    "title": "Start your business journey with us and scale today!",
+    "title": "Scale Your Business Today!",
     "content": "Unlock the full potential of your brand with our custom digital strategies. We don't just build tools; we optimize your entire workflow to ensure every click turns into a customer and every process drives more revenue for your business.",
     "buttonText": "Get in Touch"
   },
+  "Common": {
+    "home": "Home"
+  },
+  "Footer": {
+    "description": "Transform your business with cutting-edge AI solutions. We build intelligent websites and automation systems that help you work smarter, not harder.",
+    "visionQuote": "The best way to predict the future is to automate it. We bridge the gap between human creativity and machine efficiency.",
+    "visionAttribution": "DigitalSurf Vision",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
+    "getStartedDescription": "Ready to transform your business with AI-powered solutions? Let's discuss how we can help you grow.",
+    "getStartedButton": "Get Started",
+    "copyright": "Copyright © DigitalSurf All rights reserved"
+  },
+  "Navigation": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "pages": "Pages",
+    "ourTeam": "Our Team",
+    "teamDetails": "Team Details",
+    "pricing": "Pricing",
+    "faq": "Faq",
+    "contact": "Contact",
+    "project": "Project",
+    "services": "Services",
+    "blog": "Blog",
+    "project1": "Project 1",
+    "project2": "Project 2",
+    "projectDetails": "Project Details",
+    "servicesDetails": "Services Details",
+    "blogWithSidebar": "Blog With Sidebar",
+    "blogLeftSidebar": "Blog Left Sidebar",
+    "blogDetails": "Blog Details"
+  },
   "About": {
-    "title": "About Us",
-    "description": "Learn more about DigitalSurf and our mission to transform businesses through innovative digital solutions."
+    "title": "Building the Digital Future with Intelligence",
+    "aiAutomation": {
+      "title": "AI Automation",
+      "subtitle": "Custom LLMs & Workflow Efficiency"
+    },
+    "smartChatbots": {
+      "title": "Smart Chatbots",
+      "subtitle": "24/7 Intelligent Customer Support"
+    },
+    "seoDesign": {
+      "title": "SEO Design",
+      "subtitle": "Modern Web Optimized for Growth"
+    },
+    "aboutAgency": {
+      "title": "Helping Your Business Thrive with Smart Technology",
+      "content1": "At DigitalSurf, we're passionate about helping small and medium businesses like yours succeed in the digital world. We combine smart AI technology with beautiful, user-friendly design to create websites that don't just look great – they actually help you make more money, attract more customers, and grow your business. Think of us as your friendly tech partners who genuinely care about your success.",
+      "content2": "We believe that amazing technology should be accessible to everyone, not just big corporations. That's why we focus on practical solutions that real people can use: intelligent chatbots that handle customer questions while you sleep, automated systems that nurture your leads, and smart tools that help your website get found by the right people. Our goal is simple: to help you work smarter, not harder, so you can focus on what you love doing most – running your business and serving your customers."
+    },
+    "vision": {
+      "quote": "The best way to predict the future is to automate it. We bridge the gap between human creativity and machine efficiency.",
+      "author": "— DigitalSurf Vision"
+    },
+    "whyChooseUs": {
+      "title": "Why Local Businesses Love Working With Us",
+      "content1": "We specialize in helping small and medium businesses like yours stand out online and attract more customers. Our clients are everyday business owners who see real results: more phone calls, more website visitors, and most importantly – more sales. We've helped coffee shops double their online orders, local service businesses get fully booked weeks in advance, and e-commerce stores turn casual browsers into loyal customers. The best part? You don't need to be a tech expert to see these results.",
+      "content2": "We're not about complicated jargon or confusing systems – we're about practical solutions that actually work for real businesses. From friendly chatbots that answer customer questions 24/7 to smart tools that help people find you on Google, we make technology work for you. Our approach is simple: understand your business goals, create solutions that help you reach them, and be there to support you every step of the way.",
+      "seoCode": {
+        "title": "Get Found on Google",
+        "description": "We build your website the right way so Google can easily find and show it to people looking for your services."
+      },
+      "aiIntegration": {
+        "title": "Smart Tools That Save You Time",
+        "description": "Friendly AI helpers that handle repetitive tasks, answer customer questions, and help you serve more people without working more hours."
+      },
+      "uiux": {
+        "title": "Websites Your Customers Will Love",
+        "description": "Beautiful, easy-to-use websites that make it simple for customers to find what they need and contact you."
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "discovery": {
+        "title": "Discovery",
+        "description": "Strategy and SEO keyword mapping."
+      },
+      "architecture": {
+        "title": "Architecture",
+        "description": "Mapping out AI workflows and site maps."
+      },
+      "development": {
+        "title": "Development",
+        "description": "High-speed coding and AI training."
+      },
+      "optimization": {
+        "title": "Optimization",
+        "description": "Performance tuning and SEO audits."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Deploying your future-proof digital asset."
+      }
+    }
   },
   "Contact": {
     "title": "Contact Us",

@@ -3,8 +3,11 @@ import { useEffect } from 'react';
 import loadBackgroudImages from './loadBackgroudImages';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const BreadCumb = ({ Title, bgimg }) => {
+  const t = useTranslations('Common');
+
   useEffect(() => {
     loadBackgroudImages();
   }, []);
@@ -34,7 +37,8 @@ const BreadCumb = ({ Title, bgimg }) => {
               <h1>{Title}</h1>
               <div className='links'>
                 <Link href='/'>
-                  Home<span className='slash'>/</span>
+                  {t('home')}
+                  <span className='slash'>/</span>
                 </Link>
                 {Title}
               </div>

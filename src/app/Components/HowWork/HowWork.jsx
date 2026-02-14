@@ -8,7 +8,7 @@ const HowWork = () => {
   const t = useTranslations('HowWork');
 
   return (
-    <section className='work-process-section section-padding fix'>
+    <section className='work-process-section section-padding fix' style={{ padding: '80px 0' }}>
       <div className='work-process-container-wrapper style1'>
         <div className='container'>
           <div className='section-title text-center mxw-565 mx-auto'>

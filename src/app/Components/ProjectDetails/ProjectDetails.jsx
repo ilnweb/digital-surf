@@ -2,7 +2,11 @@
 import Slider from 'react-slick';
 import data from '../../Data/project2.json';
 import Image from 'next/image';
-const ProjectDetails = () => {
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import Cta1 from '../Cta/Cta1';
+const About = () => {
+  const t = useTranslations('About');
   const settings = {
     dots: false,
     infinite: true,
@@ -36,89 +40,51 @@ const ProjectDetails = () => {
   };
 
   return (
-    <section className='project-details-section section-padding fix'>
+    <section
+      className='project-details-section section-padding fix'
+      style={{ position: 'relative', zIndex: 99998, marginTop: '-5rem' }}
+    >
       <div className='project-details-container-wrapper'>
         <div className='container'>
           <div className='project-details-wapper'>
             <div className='row'>
               <div className='col-12'>
-                <div className='main-thumb'>
-                  <img src='/assets/images/project/projecDetailstThumb1_1.jpg' alt='thumb' />
+                <div
+                  className='main-thumb'
+                  style={{ position: 'relative', zIndex: 99999, marginBottom: '4rem' }}
+                >
+                  <img
+                    src='/assets/images/about/about-hero.jpg'
+                    alt='About DigitalSurf'
+                    style={{
+                      maxWidth: '1000px',
+                      height: 'auto',
+                      borderRadius: '24px',
+                      margin: '0 auto',
+                      marginTop: '-7rem',
+                      display: 'block',
+                      position: 'relative',
+                      zIndex: 99999,
+                      boxShadow: '0 20px 40px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.1)',
+                    }}
+                  />
                 </div>
               </div>
-              <div className='col-xl-4 col-md-6'>
-                <div className='fancy-box style4'>
-                  <div className='content'>
-                    <h5>Sectors</h5>
-                    <p className='text'>Roads & Highway</p>
-                  </div>
-                  <div className='icon-box style2'>
-                    <Image
-                      src='/assets/images/icon/projectDetailsIcon1_1.svg'
-                      alt='img'
-                      width={49}
-                      height={49}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className='col-xl-4 col-md-6'>
-                <div className='fancy-box style4'>
-                  <div className='content'>
-                    <h5>Sectors</h5>
-                    <p className='text'>Roads & Highway</p>
-                  </div>
-                  <div className='icon-box style2'>
-                    <Image
-                      src='/assets/images/icon/projectDetailsIcon1_2.svg'
-                      alt='img'
-                      width={37}
-                      height={54}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className='col-xl-4 col-md-6'>
-                <div className='fancy-box style4'>
-                  <div className='content'>
-                    <h5>Sectors</h5>
-                    <p className='text'>Roads & Highway</p>
-                  </div>
-                  <div className='icon-box style2'>
-                    <Image
-                      src='/assets/images/icon/projectDetailsIcon1_3.svg'
-                      alt='img'
-                      width={50}
-                      height={42}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className='single-desc'>
+              <div className='single-desc' style={{ marginTop: '6rem' }}>
                 <div className='row gy-5'>
                   <div className='col-12'>
-                    <h3 className='single-desc-title'>Project Description</h3>
-                    <p className='text1'>
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some form, by injected humour, or
-                      randomised words which do not look even slightly believable. If you are going
-                      to use a passage of Lorem Ipsum, you need to be sure there is not anything
-                      embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
-                      the Internet tend to repeat predefined chunks as necessary.
+                    <h3 className='single-desc-title'>{t('aboutAgency.title')}</h3>
+                    <p className='text1' style={{ textTransform: 'none' }}>
+                      {t('aboutAgency.content1')}
                     </p>
 
-                    <p className='text2'>
-                      ere are many variations of passages of Lorem Ipsum available, but the majority
-                      have suffered alteration in some form, by injected humour, or randomised words
-                      which do not look even slightly believable. If you are going to use a passage
-                      of Lorem Ipsum, you need to be sure there is not anything embarrassing hidden
-                      in the middle of text. All the Lorem Ipsum generators on the Internet tend to
-                      repeat predefined chunks as necessary.
+                    <p className='text2' style={{ textTransform: 'none' }}>
+                      {t('aboutAgency.content2')}
                     </p>
                   </div>
                 </div>
               </div>
-              <div className='testimonial-wrap'>
+              <div className='testimonial-wrap' style={{ marginBottom: '4rem' }}>
                 <div className='row gy-5'>
                   <div className='col-xl-12'>
                     <div className='testimonial-card'>
@@ -137,62 +103,98 @@ const ProjectDetails = () => {
                             />
                           </svg>
                         </div>
-                        <p className='text3'>
-                          And the day came when the risk to remain tight in a bud was more painful
-                          than the risk it took to blossom.
+                        <p className='text3' style={{ textTransform: 'none' }}>
+                          {t('vision.quote')}
                         </p>
                       </div>
-                      <div className='testimonial-author'>– BILLI REUSS</div>
+                      <div className='testimonial-author'>{t('vision.author')}</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='single-desc2'>
+              <div className='single-desc2' style={{ marginBottom: '4rem' }}>
                 <div className='row gy-5'>
                   <div className='col-12'>
-                    <h3 className='single-desc-title'>The Result</h3>
-                    <p className='text1'>
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some form, by injected humour, or
-                      randomised words which do not look even slightly believable. If you are going
-                      to use a passage of Lorem Ipsum, you need to be sure there is not anything
-                      embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
-                      the Internet tend to repeat predefined chunks as necessary.
+                    <h3 className='single-desc-title'>{t('whyChooseUs.title')}</h3>
+                    <p className='text1' style={{ textTransform: 'none' }}>
+                      {t('whyChooseUs.content1')}
                     </p>
 
-                    <p className='text2'>
-                      ere are many variations of passages of Lorem Ipsum available, but the majority
-                      have suffered alteration in some form, by injected humour, or randomised words
-                      which do not look even slightly believable. If you are going to use a passage
-                      of Lorem Ipsum, you need to be sure there is not anything embarrassing hidden
-                      in the middle of text. All the Lorem Ipsum generators on the Internet tend to
-                      repeat predefined chunks as necessary.
+                    <p className='text2' style={{ textTransform: 'none' }}>
+                      {t('whyChooseUs.content2')}
                     </p>
+                    <div className='row mt-4'>
+                      <div className='col-md-4 mb-3'>
+                        <h6>{t('whyChooseUs.seoCode.title')}</h6>
+                        <p>{t('whyChooseUs.seoCode.description')}</p>
+                      </div>
+                      <div className='col-md-4 mb-3'>
+                        <h6>{t('whyChooseUs.aiIntegration.title')}</h6>
+                        <p>{t('whyChooseUs.aiIntegration.description')}</p>
+                      </div>
+                      <div className='col-md-4 mb-3'>
+                        <h6>{t('whyChooseUs.uiux.title')}</h6>
+                        <p>{t('whyChooseUs.uiux.description')}</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div className='slider-area projectSliderThree'>
+              {/* Process Steps Gallery */}
+              {/* <div className='slider-area projectSliderThree'>
+                <div className='section-title text-center mb-5'>
+                  <h2 className='title'>{t('process.title')}</h2>
+                </div>
                 <div className='swiper gt-slider' id='projectSliderThree'>
                   <div className='swiper-wrapper cs_slider_gap_301'>
                     <Slider {...settings}>
-                      {data.map((item, index) => (
-                        <div key={index} className='swiper-slide'>
-                          <div className='project-thumb'>
-                            <img src={item.img} alt='thumb' />
-                          </div>
+                      <div className='swiper-slide'>
+                        <div className='process-step'>
+                          <img src='/assets/images/process/discovery.jpg' alt='Discovery' />
+                          <h5>{t('process.discovery.title')}</h5>
+                          <p>{t('process.discovery.description')}</p>
                         </div>
-                      ))}
+                      </div>
+                      <div className='swiper-slide'>
+                        <div className='process-step'>
+                          <img src='/assets/images/process/architecture.jpg' alt='Architecture' />
+                          <h5>{t('process.architecture.title')}</h5>
+                          <p>{t('process.architecture.description')}</p>
+                        </div>
+                      </div>
+                      <div className='swiper-slide'>
+                        <div className='process-step'>
+                          <img src='/assets/images/process/development.jpg' alt='Development' />
+                          <h5>{t('process.development.title')}</h5>
+                          <p>{t('process.development.description')}</p>
+                        </div>
+                      </div>
+                      <div className='swiper-slide'>
+                        <div className='process-step'>
+                          <img src='/assets/images/process/optimization.jpg' alt='Optimization' />
+                          <h5>{t('process.optimization.title')}</h5>
+                          <p>{t('process.optimization.description')}</p>
+                        </div>
+                      </div>
+                      <div className='swiper-slide'>
+                        <div className='process-step'>
+                          <img src='/assets/images/process/launch.jpg' alt='Launch' />
+                          <h5>{t('process.launch.title')}</h5>
+                          <p>{t('process.launch.description')}</p>
+                        </div>
+                      </div>
                     </Slider>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
+      <Cta1 />
     </section>
   );
 };
 
-export default ProjectDetails;
+export default About;

@@ -205,7 +205,7 @@ const HeroBanner1 = ({
                         height={537}
                       />
                     </div>
-                    <Image className='main-thumb ' src={img} alt='img' width={600} height={450} />
+                    <Image className='main-thumb ' src={img} alt='img' width={500} height={550} />
                   </div>
                 </div>
               </div>
