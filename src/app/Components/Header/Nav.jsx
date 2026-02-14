@@ -5,7 +5,7 @@ import DropDown from './DropDown';
 
 export default function Nav({ setMobileToggle }) {
   const t = useTranslations('Navigation');
-  const isLocalEnv = process.env.NODE_ENV === 'production';
+  const isLocalEnv = process.env.NODE_ENV === 'development';
 
   return (
     <ul className='cs_nav_list fw-medium'>
