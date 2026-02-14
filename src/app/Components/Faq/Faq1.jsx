@@ -10,7 +10,6 @@ import { useTranslations } from 'next-intl';
 const Faq1 = () => {
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
   const t = useTranslations('Faq');
 
   const handleItemClick = index => {
@@ -20,12 +19,6 @@ const Faq1 = () => {
       setOpenItemIndex(index);
     }
   };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
 
   const FaqContent = {
     Content: t('Faq.description'),
@@ -62,6 +55,7 @@ const Faq1 = () => {
                             data-bs-target='#faq1'
                             aria-expanded='true'
                             aria-controls='faq1'
+                            style={{ fontWeight: 'normal' }}
                           >
                             {t(`Faq.faq${index + 1}.question`)}
                           </button>
@@ -72,7 +66,9 @@ const Faq1 = () => {
                           className='accordion-collapse collapse'
                           data-bs-parent='#accordion'
                         >
-                          <div className='accordion-body'>{t(`Faq.faq${index + 1}.answer`)}</div>
+                          <div className='accordion-body' style={{ fontWeight: 'normal' }}>
+                            {t(`Faq.faq${index + 1}.answer`)}
+                          </div>
                         </div>
                       </div>
                     ))}

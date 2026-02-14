@@ -3,7 +3,10 @@ import { useEffect, useState } from 'react';
 import Nav from './Nav';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+
 export default function Header3({ variant }) {
+  const t = useTranslations('Header');
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -43,7 +46,12 @@ export default function Header3({ variant }) {
             <div className='cs_main_header_in'>
               <div className='cs_main_header_left'>
                 <Link className='cs_site_branding' href='/'>
-                  <Image src='/assets/images/logo/logo.png' alt='img' width={240} height={45} />
+                  <Image
+                    src='/assets/images/logo/logo.svg'
+                    alt='DigitalSurf Logo'
+                    width={300}
+                    height={56}
+                  />
                 </Link>
               </div>
               <div className='cs_main_header_center'>
@@ -68,7 +76,7 @@ export default function Header3({ variant }) {
                   <div className='header-button ms-4'>
                     <Link href='/contact' className='theme-btn'>
                       <span>
-                        Get Started
+                        {t('getStarted')}
                         <i className='bi bi-arrow-right'></i>
                       </span>
                     </Link>

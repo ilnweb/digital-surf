@@ -1,11 +1,16 @@
+'use client';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import DropDown from './DropDown';
 
 export default function Nav({ setMobileToggle }) {
+  const t = useTranslations('Navigation');
+  const isLocalEnv = process.env.NODE_ENV === 'production';
+
   return (
     <ul className='cs_nav_list fw-medium'>
-      <li className='menu-item-has-children'>
-        <Link href='/'>Home</Link>
+      <li>
+        <Link href='/'>{t('home')}</Link>
         {/* <DropDown>
           <ul>
             <li>
@@ -26,120 +31,127 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown> */}
       </li>
-      <li className='menu-item-has-children'>
-        <Link href='#'>Pages</Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link href='/about' onClick={() => setMobileToggle(false)}>
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link href='/team' onClick={() => setMobileToggle(false)}>
-                Our Team
-              </Link>
-            </li>
-            <li>
-              <Link href='/team/team-details' onClick={() => setMobileToggle(false)}>
-                Team Details
-              </Link>
-            </li>
-            <li>
-              <Link href='/pricing' onClick={() => setMobileToggle(false)}>
-                Pricing
-              </Link>
-            </li>
-            <li>
-              <Link href='/faq' onClick={() => setMobileToggle(false)}>
-                Faq
-              </Link>
-            </li>
-            <li>
-              <Link href='/contact' onClick={() => setMobileToggle(false)}>
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </DropDown>
+      <li>
+        <Link href='/about' onClick={() => setMobileToggle(false)}>
+          {t('aboutUs')}
+        </Link>
       </li>
 
-      <li className='menu-item-has-children'>
-        <Link href='/project' onClick={() => setMobileToggle(false)}>
-          Project
-        </Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link href='/project' onClick={() => setMobileToggle(false)}>
-                Project 1
-              </Link>
-            </li>
-            <li>
-              <Link href='/project2' onClick={() => setMobileToggle(false)}>
-                Project 2
-              </Link>
-            </li>
-            <li>
-              <Link href='/project/project-details' onClick={() => setMobileToggle(false)}>
-                Project Details
-              </Link>
-            </li>
-          </ul>
-        </DropDown>
-      </li>
+      {/* Show additional menu items only in local development */}
+      {isLocalEnv && (
+        <>
+          <li className='menu-item-has-children'>
+            <Link href='#'>{t('pages')}</Link>
+            <DropDown>
+              <ul>
+                <li>
+                  <Link href='/team' onClick={() => setMobileToggle(false)}>
+                    {t('ourTeam')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/team/team-details' onClick={() => setMobileToggle(false)}>
+                    {t('teamDetails')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/pricing' onClick={() => setMobileToggle(false)}>
+                    {t('pricing')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/faq' onClick={() => setMobileToggle(false)}>
+                    {t('faq')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/contact' onClick={() => setMobileToggle(false)}>
+                    {t('contact')}
+                  </Link>
+                </li>
+              </ul>
+            </DropDown>
+          </li>
 
-      <li className='menu-item-has-children'>
-        <Link href='/service' onClick={() => setMobileToggle(false)}>
-          Services
-        </Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link href='/service' onClick={() => setMobileToggle(false)}>
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link href='/service/service-details' onClick={() => setMobileToggle(false)}>
-                Service Details
-              </Link>
-            </li>
-          </ul>
-        </DropDown>
-      </li>
-      <li className='menu-item-has-children'>
-        <Link href='/blog' onClick={() => setMobileToggle(false)}>
-          Blog
-        </Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link href='/blog' onClick={() => setMobileToggle(false)}>
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link href='/blog-sidebar' onClick={() => setMobileToggle(false)}>
-                Blog With Sidebar
-              </Link>
-            </li>
-            <li>
-              <Link href='/blog-left-sidebar' onClick={() => setMobileToggle(false)}>
-                Blog Left Sidebar
-              </Link>
-            </li>
-            <li>
-              <Link href='/blog/blog-details' onClick={() => setMobileToggle(false)}>
-                Blog Details
-              </Link>
-            </li>
-          </ul>
-        </DropDown>
-      </li>
+          <li className='menu-item-has-children'>
+            <Link href='/project' onClick={() => setMobileToggle(false)}>
+              {t('project')}
+            </Link>
+            <DropDown>
+              <ul>
+                <li>
+                  <Link href='/project' onClick={() => setMobileToggle(false)}>
+                    {t('project1')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/project2' onClick={() => setMobileToggle(false)}>
+                    {t('project2')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/project/project-details' onClick={() => setMobileToggle(false)}>
+                    {t('projectDetails')}
+                  </Link>
+                </li>
+              </ul>
+            </DropDown>
+          </li>
+
+          <li className='menu-item-has-children'>
+            <Link href='/service' onClick={() => setMobileToggle(false)}>
+              {t('services')}
+            </Link>
+            <DropDown>
+              <ul>
+                <li>
+                  <Link href='/service' onClick={() => setMobileToggle(false)}>
+                    {t('services')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/service/service-details' onClick={() => setMobileToggle(false)}>
+                    {t('servicesDetails')}
+                  </Link>
+                </li>
+              </ul>
+            </DropDown>
+          </li>
+          <li className='menu-item-has-children'>
+            <Link href='/blog' onClick={() => setMobileToggle(false)}>
+              {t('blog')}
+            </Link>
+            <DropDown>
+              <ul>
+                <li>
+                  <Link href='/blog' onClick={() => setMobileToggle(false)}>
+                    {t('blog')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/blog-sidebar' onClick={() => setMobileToggle(false)}>
+                    {t('blogWithSidebar')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/blog-left-sidebar' onClick={() => setMobileToggle(false)}>
+                    {t('blogLeftSidebar')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/blog/blog-details' onClick={() => setMobileToggle(false)}>
+                    {t('blogDetails')}
+                  </Link>
+                </li>
+              </ul>
+            </DropDown>
+          </li>
+        </>
+      )}
+
       <li>
         <Link href='/contact' onClick={() => setMobileToggle(false)}>
-          Contact
+          {t('contact')}
         </Link>
       </li>
     </ul>

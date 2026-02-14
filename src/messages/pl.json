@@ -33,13 +33,109 @@
   },
   "Cta1": {
     "subtitle": "Cyfrowy wzrost",
-    "title": "Rozpocznij swoją biznesową podróż z nami i skaluj już dziś!",
+    "title": "Skaluj swój biznes już dziś!",
     "content": "Odblokuj pełny potencjał swojej marki dzięki naszym niestandardowym strategiom cyfrowym. Nie tylko tworzymy narzędzia; optymalizujemy cały Twój przepływ pracy, aby zapewnić, że każde kliknięcie zamienia się w klienta, a każdy proces generuje więcej przychodów dla Twojego biznesu.",
     "buttonText": "Skontaktuj się z nami"
   },
+  "Common": {
+    "home": "Strona główna"
+  },
+  "Footer": {
+    "description": "Przekształć swój biznes za pomocą nowoczesnych rozwiązań AI. Tworzymy inteligentne strony internetowe i systemy automatyzacji, które pomagają Ci pracować mądrzej, a nie ciężej.",
+    "visionQuote": "Najlepszym sposobem na przewidzenie przyszłości jest jej zautomatyzowanie. Łączymy lukę między ludzką kreatywnością a wydajnością maszynową.",
+    "visionAttribution": "DigitalSurf Wizja",
+    "quickLinks": "Szybkie linki",
+    "home": "Strona główna",
+    "aboutUs": "O nas",
+    "contactUs": "Kontakt",
+    "getStarted": "Zacznij",
+    "getStartedDescription": "Gotowy na przekształcenie swojego biznesu za pomocą rozwiązań AI? Porozmawiajmy o tym, jak możemy pomóc Ci się rozwijać.",
+    "getStartedButton": "Zacznij",
+    "copyright": "Copyright © DigitalSurf Wszystkie prawa zastrzeżone"
+  },
+  "Navigation": {
+    "home": "Strona główna",
+    "aboutUs": "O nas",
+    "pages": "Strony",
+    "ourTeam": "Nasz zespół",
+    "teamDetails": "Szczegóły zespołu",
+    "pricing": "Cennik",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "project": "Projekt",
+    "services": "Usługi",
+    "blog": "Blog",
+    "project1": "Projekt 1",
+    "project2": "Projekt 2",
+    "projectDetails": "Szczegóły projektu",
+    "servicesDetails": "Szczegóły usług",
+    "blogWithSidebar": "Blog z paskiem bocznym",
+    "blogLeftSidebar": "Blog z lewym paskiem bocznym",
+    "blogDetails": "Szczegóły bloga"
+  },
   "About": {
-    "title": "O nas",
-    "description": "Dowiedz się więcej o DigitalSurf i naszej misji transformacji biznesów poprzez innowacyjne rozwiązania cyfrowe."
+    "title": "Budowanie Przyszłości Cyfrowej z Inteligencją",
+    "aiAutomation": {
+      "title": "Automatyzacja AI",
+      "subtitle": "Niestandardowe LLM i Efektywność Pracy"
+    },
+    "smartChatbots": {
+      "title": "Inteligentne Chatboty",
+      "subtitle": "24/7 Inteligentna Wsparcie Klienta"
+    },
+    "seoDesign": {
+      "title": "Projektowanie SEO",
+      "subtitle": "Nowoczesny Web Zoptymalizowany dla Wzrostu"
+    },
+    "aboutAgency": {
+      "title": "Pomagamy Twojemu Biznesowi Rozkwitać Dzięki Inteligentnej Technologii",
+      "content1": "W DigitalSurf jesteśmy pasjonatami pomagania małym i średnim firmom takim jak Twoja odnosić sukcesy w świecie cyfrowym. Łączymy inteligentną technologię AI z pięknym, przyjaznym dla użytkownika designem, aby tworzyć strony internetowe, które nie tylko wyglądają świetnie – faktycznie pomagają Ci zarabiać więcej pieniędzy, przyciągać więcej klientów i rozwijać Twój biznes. Pomyśl o nas jako o swoich przyjaznych partnerach technologicznych, którzy naprawdę dbają o Twój sukces.",
+      "content2": "Wierzymy, że niesamowita technologia powinna być dostępna dla wszystkich, nie tylko dla dużych korporacji. Dlatego skupiamy się na praktycznych rozwiązaniach, których mogą używać prawdziwi ludzie: inteligentne chatboty, które odpowiadają na pytania klientów, gdy śpisz, zautomatyzowane systemy, które pielęgnują Twoje leady, i inteligentne narzędzia, które pomagają Twojej stronie być znalezione przez odpowiednich ludzi. Nasz cel jest prosty: pomóc Ci pracować mądrzej, nie ciężej, abyś mógł skupić się na tym, co kochasz najbardziej – prowadzeniu biznesu i obsłudze klientów."
+    },
+    "vision": {
+      "quote": "Najlepszym sposobem na przewidywanie przyszłości jest jej automatyzacja. Łączymy lukę między ludzką kreatywnością a wydajnością maszyn.",
+      "author": "— Wizja DigitalSurf"
+    },
+    "whyChooseUs": {
+      "title": "Dlaczego Lokalne Firmy Uwielbiają z Nami Współpracować",
+      "content1": "Specjalizujemy się w pomaganiu małym i średnim firmom takim jak Twoja wyróżniać się online i przyciągać więcej klientów. Nasi klienci to codzienni właściciele firm, którzy widzą realne wyniki: więcej telefonów, więcej odwiedzających stronę internetową i co najważniejsze – więcej sprzedaży. Pomogliśmy kawiarniom podwoić swoje zamówienia online, lokalnym firmom usługowym być zarezerwowanym na tygodnie naprzód, a sklepom e-commerce zamieniać przypadkowych przeglądających w lojalnych klientów. Najlepsze? Nie musisz być ekspertem od technologii, aby zobaczyć te wyniki.",
+      "content2": "Nie jesteśmy o skomplikowanym żargonie czy mylących systemach – jesteśmy o praktycznych rozwiązaniach, które faktycznie działają dla prawdziwych firm. Od przyjaznych chatbotów, które odpowiadają na pytania klientów 24/7, po inteligentne narzędzia, które pomagają ludziom Cię znaleźć w Google, sprawiamy, że technologia pracuje dla Ciebie. Nasze podejście jest proste: rozumiemy cele Twojego biznesu, tworzymy rozwiązania, które pomagają Ci je osiągnąć, i jesteśmy tam, by Cię wspierać na każdym kroku.",
+      "seoCode": {
+        "title": "Bądź Znaleziony w Google",
+        "description": "Budujemy Twoją stronę internetową we właściwy sposób, aby Google mogło łatwo ją znaleźć i pokazywać ludziom szukającym Twoich usług."
+      },
+      "aiIntegration": {
+        "title": "Inteligentne Narzędzia, Które Oszczędzają Czas",
+        "description": "Przyjazni asystenci AI, którzy zajmują się powtarzającymi się zadaniami, odpowiadają na pytania klientów i pomagają obsługiwać więcej osób bez pracy w dodatkowych godzinach."
+      },
+      "uiux": {
+        "title": "Strony Internetowe, Które Twoi Klienci Pokochają",
+        "description": "Piękne, łatwe w użyciu strony internetowe, które ułatwiają klientom znalezienie tego, czego potrzebują i skontaktowanie się z Tobą."
+      }
+    },
+    "process": {
+      "title": "Nasz Proces",
+      "discovery": {
+        "title": "Odkrycie",
+        "description": "Strategia i mapowanie słów kluczowych SEO."
+      },
+      "architecture": {
+        "title": "Architektura",
+        "description": "Mapowanie przepływów pracy AI i map witryn."
+      },
+      "development": {
+        "title": "Rozwój",
+        "description": "Szybkie programowanie i trenowanie AI."
+      },
+      "optimization": {
+        "title": "Optymalizacja",
+        "description": "Dostrajanie wydajności i audyty SEO."
+      },
+      "launch": {
+        "title": "Uruchomienie",
+        "description": "Wdrażanie Twojej przyszłościowej cyfrowej zasobu."
+      }
+    }
   },
   "Contact": {
     "title": "Skontaktuj się z nami",

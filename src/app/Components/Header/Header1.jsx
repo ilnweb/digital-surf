@@ -2,9 +2,12 @@
 import { useEffect, useState } from 'react';
 import Nav from './Nav';
 import Link from 'next/link';
-import Image from 'next/image';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
+import Logo from '../Logo/Logo';
+import { useTranslations } from 'next-intl';
+
 export default function Header1({ variant }) {
+  const t = useTranslations('Header');
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -44,7 +47,7 @@ export default function Header1({ variant }) {
             <div className='cs_main_header_in'>
               <div className='cs_main_header_left'>
                 <Link className='cs_site_branding' href='/'>
-                  <Image src='/assets/images/logo/logo.png' alt='img' width={240} height={45} />
+                  <Logo />
                 </Link>
               </div>
               <div className='cs_main_header_center'>
@@ -70,7 +73,7 @@ export default function Header1({ variant }) {
                   <div className='header-button ms-4'>
                     <Link href='/contact' className='theme-btn'>
                       <span>
-                        Get Started
+                        {t('getStarted')}
                         <i className='bi bi-arrow-right'></i>
                       </span>
                     </Link>
