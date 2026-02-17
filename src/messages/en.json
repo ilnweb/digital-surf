@@ -181,17 +181,17 @@
     "subtitle": "How It Works",
     "title": "Optimize Your Business Operations In Three Simple Steps!",
     "step1": {
-      "title": "STEP - 01",
+      "title": "STEP  1",
       "heading": "Consult & Strategize",
       "description": "We analyze your current workflow to identify growth opportunities and digital gaps."
     },
     "step2": {
-      "title": "STEP - 02",
+      "title": "STEP  2",
       "heading": "Custom Integration",
       "description": "Our team builds and deploys tailored AI and web solutions designed for your brand."
     },
     "step3": {
-      "title": "STEP - 03",
+      "title": "STEP  3",
       "heading": "Launch & Scale",
       "description": "Go live with your new digital ecosystem and watch your business efficiency soar."
     }
@@ -241,5 +241,45 @@
         "answer": "Not at all. Our \"Step-by-Step\" approach ensures a seamless transition. We build our solutions to plug directly into your existing CRM and communication tools, meaning you get the benefits of advanced automation without having to rebuild your entire business from scratch."
       }
     }
+  },
+  "ContactInfo": {
+    "ourAddress": "Our Address",
+    "warsawPoland": "Warsaw, Poland",
+    "varnaBulgaria": "Varna, Bulgaria",
+    "warsaw": "Warsaw",
+    "varna": "Varna",
+    "emailDescription": "Email us anytime for any kind of query.",
+    "readyToGetStarted": "Ready to Get Started?",
+    "contactTitle": "Contact Us",
+    "breadcrumbTitle": "Contact Us",
+    "description": "Ready to turn your ideas into reality? Contact us and we'll help you create the perfect digital solution for your business.",
+    "yourName": "Your name*",
+    "yourNamePlaceholder": "Your Name",
+    "yourEmail": "Your Email*",
+    "yourEmailPlaceholder": "Your Email",
+    "writeMessage": "Write Message*",
+    "writeMessagePlaceholder": "Write Message",
+    "yourUrl": "Your Website",
+    "yourUrlPlaceholder": "https://example.com",
+    "nameRequired": "Name is required",
+    "nameMinLength": "Name must be at least 2 characters",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "messageRequired": "Message is required",
+    "messageMinLength": "Message must be at least 10 characters",
+    "fixErrors": "Please fix the errors in the form",
+    "successMessage": "Message sent successfully!",
+    "errorMessage": "An error occurred. Please try again.",
+    "sending": "Sending...",
+    "sendMessage": "Send Message",
+    "phone": "Phone",
+    "phoneDescription": "Call us for any kind of support, we will wait for it",
+    "fallbackMessage": "Message received! We'll get back to you soon.",
+    "yourPhone": "Your Phone",
+    "yourPhonePlaceholder": "+1 (555) 123-4567",
+    "yourSubject": "Subject",
+    "yourSubjectPlaceholder": "Enter message subject",
+    "subjectRequired": "Subject is required",
+    "phoneInvalid": "Please enter a valid phone number"
   }
 }

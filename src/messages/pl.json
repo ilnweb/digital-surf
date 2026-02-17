@@ -181,17 +181,17 @@
     "subtitle": "Jak to działa",
     "title": "Optymalizuj operacje biznesowe w trzech prostych krokach!",
     "step1": {
-      "title": "KROK - 01",
+      "title": "KROK - 1",
       "heading": "Konsultacja i strategia",
       "description": "Analizujemy Twój obecny przepływ pracy, aby zidentyfikować możliwości wzrostu i luki cyfrowe."
     },
     "step2": {
-      "title": "KROK - 02",
+      "title": "KROK - 2",
       "heading": "Niestandardowa integracja",
       "description": "Nasz zespół buduje i wdraża dostosowane rozwiązania AI i internetowe zaprojektowane dla Twojej marki."
     },
     "step3": {
-      "title": "KROK - 03",
+      "title": "KROK - 3",
       "heading": "Uruchomienie i skalowanie",
       "description": "Uruchom swoją nową ekosystem cyfrowy i obserwuj, jak efektywność Twojego biznesu rośnie."
     }
@@ -241,5 +241,45 @@
         "answer": "Wcale nie. Nasze podejście \"Krok po kroku\" zapewnia bezproblemową przejście. Budujemy nasze rozwiązania tak, aby podłączały się bezpośrednio do Twoich istniejących narzędzi CRM i komunikacyjnych, co oznacza, że otrzymujesz korzyści z zaawansowanej automatyzacji bez potrzeby przebudowywania całego biznesu od zera."
       }
     }
+  },
+  "ContactInfo": {
+    "ourAddress": "Nasz Adres",
+    "warsawPoland": "Warszawa, Polska",
+    "varnaBulgaria": "Warna, Bułgaria",
+    "warsaw": "Warszawa",
+    "varna": "Warna",
+    "emailDescription": "Email do nas w każdej chwili w sprawie każdego zapytania.",
+    "readyToGetStarted": "Gotowy na start?",
+    "contactTitle": "Skontaktuj się z nami",
+    "breadcrumbTitle": "Skontaktuj się z nami",
+    "description": "Gotowe na przekształcenie Twoich pomysłów w rzeczywistość? Skontaktuj się z nami, a pomożemy Ci stworzyć idealne cyfrowe rozwiązanie dla Twojej firmy.",
+    "yourName": "Twoje imię*",
+    "yourNamePlaceholder": "Twoje Imię",
+    "yourEmail": "Twój Email*",
+    "yourEmailPlaceholder": "Twój Email",
+    "writeMessage": "Napisz Wiadomość*",
+    "writeMessagePlaceholder": "Napisz Wiadomość",
+    "yourUrl": "Twoja Strona WWW",
+    "yourUrlPlaceholder": "https://example.com",
+    "nameRequired": "Imię jest wymagane",
+    "nameMinLength": "Imię musi mieć co najmniej 2 znaki",
+    "emailRequired": "Email jest wymagany",
+    "emailInvalid": "Proszę podać prawidłowy adres email",
+    "messageRequired": "Wiadomość jest wymagana",
+    "messageMinLength": "Wiadomość musi mieć co najmniej 10 znaków",
+    "fixErrors": "Proszę poprawić błędy w formularzu",
+    "successMessage": "Wiadomość wysłana pomyślnie!",
+    "errorMessage": "Wystąpił błąd. Spróbuj ponownie.",
+    "sending": "Wysyłanie...",
+    "sendMessage": "Wyślij Wiadomość",
+    "phone": "Telefon",
+    "phoneDescription": "Zadzwoń do nas w sprawie jakiegokolwiek wsparcia, będziemy na nie czekać",
+    "fallbackMessage": "Wiadomość otrzymana! Skontaktujemy się z Tobą wkrótce.",
+    "yourPhone": "Twój Telefon",
+    "yourPhonePlaceholder": "+48 123 456 789",
+    "yourSubject": "Temat",
+    "yourSubjectPlaceholder": "Wprowadź temat wiadomości",
+    "subjectRequired": "Temat jest wymagany",
+    "phoneInvalid": "Proszę wpisać poprawny numer telefonu"
   }
 }

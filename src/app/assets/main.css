@@ -121,7 +121,7 @@ h6 {
   margin: 0px;
   padding: 0;
   color: var(--title);
-  text-transform: capitalize;
+  text-transform: initial;
   transition: all 0.4s ease-in-out;
 }
 
@@ -297,7 +297,7 @@ label {
 
 /* Firefox */
 input[type='number'] {
-  -moz-appearance: textfield;
+  -moz-appearance: 'textfield';
 }
 
 input[type='checkbox'] {
@@ -2410,7 +2410,7 @@ input[type='radio']:checked ~ label::before {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: initial;
   border-bottom: 1px solid var(--border) !important;
   border: none;
 }
@@ -2989,7 +2989,7 @@ input[type='radio']:checked ~ label::before {
   font-style: normal;
   font-weight: 600;
   line-height: 140%;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .fancy-box.style4 .content .text {
   color: var(--text);
@@ -2998,7 +2998,7 @@ input[type='radio']:checked ~ label::before {
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .fancy-box.style4 .content:before {
   position: absolute;
@@ -3345,7 +3345,7 @@ input[type='radio']:checked ~ label::before {
   font-style: normal;
   font-weight: 700;
   line-height: 50px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .modal-details .title-box .price {
   color: var(--title);
@@ -3354,7 +3354,7 @@ input[type='radio']:checked ~ label::before {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .modal-details .desc p {
   color: var(--text);
@@ -3543,7 +3543,7 @@ input[type='radio']:checked ~ label::before {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 5px;
 }
 .comment-list .comment-item .post-comment .comment-content .commented-on {
@@ -3625,7 +3625,7 @@ input[type='radio']:checked ~ label::before {
   font-style: normal;
   font-weight: 900;
   line-height: 50px;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 25px;
 }
 .comment-form .rating {
@@ -3685,7 +3685,7 @@ input[type='radio']:checked ~ label::before {
   height: 70px;
   border: 0;
   padding: 0 50px;
-  text-transform: capitalize;
+  text-transform: initial;
   background: transparent;
   font-size: 25px;
   color: var(--theme);
@@ -3994,7 +3994,7 @@ input.main-search-input::placeholder {
 .main-header-wrapper .main-header-items .header-contact-info-area .contact-info-items .content p {
   color: var(--text);
   margin-bottom: 5px;
-  text-transform: capitalize;
+  text-transform: initial;
   font-size: 14px;
   font-weight: 500;
   opacity: 0.7;
@@ -4642,7 +4642,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: initial;
   color: var(--title);
   padding: 0 25px;
   padding-bottom: 11px;
@@ -5050,7 +5050,7 @@ input.main-search-input::placeholder {
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li {
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li a {
   color: var(--white);
@@ -5220,7 +5220,7 @@ input.main-search-input::placeholder {
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-items li {
   color: var(--theme2);
-  text-transform: capitalize;
+  text-transform: initial;
   font-weight: 500;
   font-size: 18px;
 }
@@ -5434,7 +5434,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 10px;
 }
 .footer-top .fancy-box .item2 p {
@@ -5678,7 +5678,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 700;
   line-height: 128.182%;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .footer-widgets-wrapper.style1 .single-footer-widget .footer-content {
   max-width: 366px;
@@ -5751,7 +5751,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 267.5%;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .footer-widgets-wrapper.style1 .single-footer-widget .list-area li:not(:last-child) {
   margin-bottom: 5px;
@@ -5768,7 +5768,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 8px;
 }
 .footer-widgets-wrapper.style1 .single-footer-widget .contact-box .widget-head {
@@ -5778,7 +5778,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 700;
   line-height: 128.182%;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 10px;
 }
 .footer-widgets-wrapper.style1 .single-footer-widget .contact-box .text {
@@ -5887,7 +5887,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 157.4%;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 @media (max-width: 500px) {
   .footer-bottom.style1 .footer-wrapper p {
@@ -5930,6 +5930,7 @@ input.main-search-input::placeholder {
     gap: 30px;
   }
 }
+
 .contact-info-area .contact-info-items {
   display: flex;
   align-items: center;
@@ -7205,7 +7206,7 @@ input.main-search-input::placeholder {
   box-shadow: none;
   background-color: var(--theme3);
   padding: 15px 20px 0;
-  text-transform: capitalize;
+  text-transform: initial;
   font-size: 16px;
   border: 1px solid var(--border);
   border: 1px solid transparent;
@@ -7982,7 +7983,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: initial;
   border: 0;
   border-radius: 50px;
   margin-left: 4px;
@@ -8282,7 +8283,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .blog-card.style2 .blog-card-body .btn-wrapper a:hover {
   color: var(--theme);
@@ -8295,7 +8296,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .blog-card.style2 .blog-card-body .tag-cloud {
   display: flex;
@@ -8728,7 +8729,7 @@ input.main-search-input::placeholder {
 .news-details-area .blog-post-details .single-blog-post .post-content .hilight-text p {
   max-width: 650px;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: initial;
   font-style: italic;
   line-height: 26px;
 }
@@ -8758,7 +8759,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
-  text-transform: capitalize;
+  text-transform: initial;
   background: var(--white);
   margin-right: 5px;
   margin-bottom: 10px;
@@ -8841,7 +8842,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 22px;
-  text-transform: capitalize;
+  text-transform: initial;
   transition: all 0.4s ease-in-out;
 }
 .news-details-area
@@ -9114,7 +9115,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .service-details-wrapper .details-box1 {
   margin-top: 30px;
@@ -9337,7 +9338,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 40px;
 }
 .project-details-wapper .single-desc .text1 {
@@ -9347,7 +9348,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 30px;
 }
 .project-details-wapper .single-desc .text2 {
@@ -9357,7 +9358,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: initial;
   padding-bottom: 40px;
   margin-bottom: 40px;
   border-bottom: 1px solid #e5e5e5;
@@ -9380,7 +9381,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 50px;
-  text-transform: capitalize;
+  text-transform: initial;
   max-width: 650px;
 }
 .project-details-wapper
@@ -9394,7 +9395,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 50px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 @media (max-width: 767px) {
   .project-details-wapper .testimonial-wrap .testimonial-card {
@@ -9408,7 +9409,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 40px;
 }
 .project-details-wapper .single-desc2 .text1 {
@@ -9418,7 +9419,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 30px;
 }
 .project-details-wapper .single-desc2 .text2 {
@@ -9428,7 +9429,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 60px;
 }
 .project-details-wapper .projectSliderThree .swiper {
@@ -9534,7 +9535,7 @@ input.main-search-input::placeholder {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: -0.4px;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 5px;
 }
 .team-details-wrap .team-details-content .details-info .profile span {
@@ -9545,7 +9546,7 @@ input.main-search-input::placeholder {
   font-weight: 500;
   line-height: 14px;
   letter-spacing: -0.3px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .team-details-wrap .team-details-content .details-info .gt-social a {
   border-radius: 100px;
@@ -9624,7 +9625,7 @@ input.main-search-input::placeholder {
   font-weight: 600;
   line-height: 24px;
   letter-spacing: -0.48px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .team-simple-history .skills {
   padding: 28px 40px 70px;
@@ -9643,7 +9644,7 @@ input.main-search-input::placeholder {
   font-weight: 600;
   line-height: 24px;
   letter-spacing: -0.4px;
-  text-transform: capitalize;
+  text-transform: initial;
   margin-bottom: 30px;
 }
 .team-simple-history .skills .progress-wrap .progress-meta {
@@ -9656,7 +9657,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .team-simple-history .skills .progress-wrap .progress-meta .percentage {
   color: var(--theme);
@@ -9843,7 +9844,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
-  text-transform: capitalize;
+  text-transform: initial;
   background: var(--white);
   margin-right: 5px;
   margin-bottom: 10px;
@@ -9889,7 +9890,7 @@ input.main-search-input::placeholder {
   line-height: 1.25;
   margin: 10px 0 0px;
   font-family: 'Urbanist', sans-serif;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .recent-post .recent-post-meta {
   margin-bottom: -2px;
@@ -9907,7 +9908,7 @@ input.main-search-input::placeholder {
   font-weight: 700;
 }
 .recent-post .recent-post-meta a {
-  text-transform: capitalize;
+  text-transform: initial;
   font-size: 14px;
   font-weight: 400;
   color: var(--text);
@@ -10023,25 +10024,27 @@ input.main-search-input::placeholder {
 /* 34.Contact */
 .contact-info-box.style1 {
   padding: 12px;
-  background-color: #faf8ff;
+  background-color: #f5f0ff;
   border-radius: 10px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -ms-transition: all 0.4s;
   -o-transition: all 0.4s;
+  min-height: 295px;
 }
 .contact-info-box.style1 .contact-content {
   padding: 50px 30px 30px;
   text-align: center;
   border-radius: 10px;
-  background-color: #faf8ff;
+  background-color: #ffffff;
   border: 1px solid #e6e5e5;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -ms-transition: all 0.4s;
   -o-transition: all 0.4s;
+  min-height: 305px;
 }
 .contact-info-box.style1 .contact-content .icon {
   margin-bottom: 40px;
@@ -10058,9 +10061,90 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
+  text-transform: none;
 }
-.contact-info-box.style1 .contact-content .title a:hover {
-  color: var(--white) !important;
+.contact-info-box.style1 .contact-content .text a {
+  color: var(--title);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-info-box.style1 .contact-content .text a:hover {
+  color: var(--title) !important;
+  text-decoration: none;
+}
+
+.contact-info-box.style1 .contact-content .text a.phone-link {
+  color: var(--title);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-info-box.style1 .contact-content .text a.phone-link:hover {
+  color: var(--title) !important;
+  text-decoration: none;
+}
+
+.contact-info-box.style1 .contact-content .text a {
+  font-weight: bold;
+}
+
+/* Form Validation Styles */
+.form-clt input.error,
+.form-clt textarea.error {
+  border-color: #ff4444 !important;
+  box-shadow: 0 0 0 2px rgba(255, 68, 68, 0.2) !important;
+}
+
+.error-message {
+  color: #ff4444;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+  font-family: 'Urbanist', sans-serif;
+}
+
+/* Toast Notification Styles */
+.toast-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  z-index: 9999;
+  animation: slideIn 0.3s ease-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: 'Urbanist', sans-serif;
+  font-size: 16px;
+  max-width: 300px;
+}
+
+.toast-notification.success {
+  background-color: #28a745;
+  border: 1px solid #28a745;
+}
+
+.toast-notification.error {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 .contact-info-box.style1 .contact-content .text {
   color: var(--text);
@@ -10114,6 +10198,7 @@ input.main-search-input::placeholder {
   line-height: 60px;
   margin-bottom: 20px;
 }
+
 .contact-form.style1 .desc {
   color: var(--text);
   font-family: 'Urbanist', sans-serif;
@@ -10128,7 +10213,7 @@ input.main-search-input::placeholder {
 .contact-form.style1 .contact-form-items .form-clt span {
   color: var(--title);
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .contact-form.style1 .contact-form-items .form-clt input,
 .contact-form.style1 .contact-form-items .form-clt textarea {
@@ -10375,7 +10460,7 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type='number'] {
-  -moz-appearance: textfield;
+  -moz-appearance: 'textfield';
 }
 
 input[type='checkbox'] {
@@ -11227,7 +11312,7 @@ textarea.is-invalid {
   .cs_nav .cs_nav_list ul {
     padding-left: 15px;
     display: none;
-    text-transform: capitalize;
+    text-transform: initial;
   }
   .cs_nav .cs_nav_list a {
     display: block;
@@ -11609,4 +11694,7 @@ textarea.is-invalid {
   --progress-width: 95%;
   animation: 1.8s ease 0s 1 normal forwards running animate-positive;
   opacity: 1;
+}
+.normal-text {
+  text-transform: none !important;
 }
