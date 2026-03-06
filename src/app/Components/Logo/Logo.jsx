@@ -8,7 +8,7 @@ const Logo = ({ width = 280, height = 60, className = '', iconSize = 50, ...prop
       {...props}
     >
       <img
-        src='/assets/images/logo/Logo.svg'
+        src='/assets/images/logo/logo.svg'
         alt='DigitalSurf Logo'
         width={width}
         height={height}
