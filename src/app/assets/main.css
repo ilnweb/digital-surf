@@ -6525,7 +6525,7 @@ input.main-search-input::placeholder {
   max-width: 100%!important;
   height: auto;
   border-radius: 24px;
-  margin: -7rem auto 0px;
+  margin: 0 auto 0px;
   display: block;
   position: relative;
   z-index: 99999;
@@ -6536,7 +6536,7 @@ input.main-search-input::placeholder {
     max-width: 100%;
   }
   .about-wrapper.style1 .about-thumb .main-thumb .about-hero-image {
-    margin: -3rem auto 0px;
+    margin: 0 auto 0px;
   }
 }
 .about-wrapper.style1 .about-thumb .absolute-thumb {
@@ -6563,6 +6563,16 @@ input.main-search-input::placeholder {
     bottom: 0;
     left: 0;
   }
+}
+.about-wrapper.style1 .about-content .checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.about-wrapper.style1 .about-content .checklist li img {
+  margin-right: 0;
+  flex-shrink: 0;
+  margin-top: 2px;
 }
 .about-wrapper.style1 .about-content .checklist {
   margin-bottom: 30px;

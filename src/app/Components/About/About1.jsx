@@ -48,7 +48,7 @@ const About1 = ({ img1, img2, btnurl, hideImgMobile }) => {
                     />
                   </div>
                   <div className='main-thumb'>
-                    <Image className='about-hero-image' src={img1} alt='img' width={436} height={530} />
+                    <Image src={img1} alt='img' width={436} height={530} />
                   </div>
                   <div className='absolute-thumb float-bob-x'>
                     <Image src={img2} alt='img' width={216} height={108} />
@@ -56,10 +56,16 @@ const About1 = ({ img1, img2, btnurl, hideImgMobile }) => {
                 </div>
               </div>
               <div className='col-xl-6'>
-                <div className='about-content' style={{ margin: '1rem' }}>
+                <div className='about-content'>
                   <div className='section-title'>
                     <div className='subtitle wow fadeInUp' data-wow-delay='.2s'>
-                      {t('subtitle')}
+                      {t('subtitle')}{' '}
+                      <Image
+                        src='/assets/images/icon/fireIcon.svg'
+                        alt='img'
+                        width={16}
+                        height={17}
+                      />
                     </div>
                     <h2 className='title wow fadeInUp' data-wow-delay='.4s'>
                       {t('title')}
