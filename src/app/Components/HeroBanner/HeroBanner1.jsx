@@ -14,6 +14,7 @@ const HeroBanner1 = ({
   rating,
   ratingcon,
   img,
+  hideImgMobile,
 }) => {
   const t = useTranslations('HeroBanner');
   return (
@@ -66,15 +67,6 @@ const HeroBanner1 = ({
                 <div className='col-xl-7 order-2 order-xl-1'>
                   <div className='intro-content'>
                     <div className='intro-section-title'>
-                      {/* <div className='intro-subtitle'>
-                        {parse(subtitle)}{' '}
-                        <Image
-                          src='/assets/images/icon/fireIcon.svg'
-                          alt='img'
-                          width={16}
-                          height={17}
-                        />
-                      </div> */}
                       <h1 className='intro-title wow fadeInUp' data-wow-delay='.2s'>
                         {t('title')}
                       </h1>
@@ -187,7 +179,7 @@ const HeroBanner1 = ({
                     </div> */}
                   </div>
                 </div>
-                <div className='col-xl-5 order-1 order-xl-2'>
+                <div className={`col-xl-5 order-1 order-xl-2${hideImgMobile ? ' d-none d-xl-block' : ''}`}>
                   <div className='intro-thumb'>
                     <div className='thumbShape1'>
                       <Image

@@ -9,16 +9,10 @@ const Choose3 = () => {
           <div className='wcu-wrapper style3'>
             <div className='row gy-5 gx-60'>
               <div className='col-xl-6'>
-                <div className='wcu-content'>
+                <div className='wcu-content' style={{ margin: '1rem' }}>
                   <div className='section-title'>
                     <div className='subtitle wow fadeInUp' data-wow-delay='.2s'>
-                      Customizations & Analysis{' '}
-                      <Image
-                        src='/assets/images/icon/fireIcon.svg'
-                        alt='img'
-                        width={16}
-                        height={17}
-                      />
+                      Customizations & Analysis
                     </div>
                     <h2 className='title wow fadeInUp' data-wow-delay='.4s'>
                       Manage your Traffic Growth Easily

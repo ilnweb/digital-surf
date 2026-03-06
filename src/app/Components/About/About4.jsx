@@ -5,7 +5,7 @@ const About4 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
   return (
     <section className='about-section section-padding fix'>
       <div className='about-container-wrapper style1'>
-        <div className='container'>
+        <div className='container custom-container'> 
           <div className='about-wrapper style1'>
             <div className='row gy-5 gx-60'>
               <div className='col-xl-6'>
@@ -55,13 +55,7 @@ const About4 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                 <div className='about-content'>
                   <div className='section-title'>
                     <div className='subtitle wow fadeInUp' data-wow-delay='.2s'>
-                      {subtitle}{' '}
-                      <Image
-                        src='/assets/images/icon/fireIcon.svg'
-                        alt='img'
-                        width={16}
-                        height={17}
-                      />
+                      {subtitle}
                     </div>
                     <h2 className='title wow fadeInUp' data-wow-delay='.4s'>
                       {title}

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-const Choose4 = () => {
+const Choose4 = ({ hideImgMobile }) => {
   const t = useTranslations('Choose4');
 
   return (
@@ -14,10 +14,10 @@ const Choose4 = () => {
           <div className='wcu-wrapper style3'>
             <div className='row gy-5 gx-60 flex-row-reverse'>
               <div className='col-xl-6'>
-                <div className='wcu-content'>
+                <div className='wcu-content' style={{ margin: '1rem' }}>
                   <div className='section-title'>
                     <div className='subtitle wow fadeInUp' data-wow-delay='.2s'>
-                      {t('subtitle')} 🔥
+                      {t('subtitle')}
                     </div>
                     <h2 className='title wow fadeInUp' data-wow-delay='.4s'>
                       {t('title')}
@@ -78,7 +78,7 @@ const Choose4 = () => {
                   </div>
                 </div>
               </div>
-              <div className='col-xl-6'>
+              <div className={`col-xl-6${hideImgMobile ? ' d-none d-xl-block' : ''}`}>
                 <div className='wcu-thumb'>
                   <div
                     className='main-thumb img-custom-anim-left wow fadeInUp'

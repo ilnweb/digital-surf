@@ -7,7 +7,7 @@ import data from '../../Data/faq1.json';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
-const Faq1 = () => {
+const Faq1 = ({ hideImgMobile }) => {
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const t = useTranslations('Faq');
@@ -32,7 +32,7 @@ const Faq1 = () => {
         <div className='faq-wrapper style1'>
           <div className='row gy-5 gy-xl-0 gx-60 d-flex align-items-start'>
             <div className='col-xl-6'>
-              <div className='faq-content style1'>
+              <div className='faq-content style1' style={{ margin: '1rem' }}>
                 <div className='section-title'>
                   <SectionTitle SubTitle={t('Faq.subtitle')} Title={t('Faq.title')}></SectionTitle>
                   <p className='section-desc wow fadeInUp' data-wow-delay='.6s'>
@@ -76,7 +76,7 @@ const Faq1 = () => {
                 </div>
               </div>
             </div>
-            <div className='col-xl-6'>
+            <div className={`col-xl-6${hideImgMobile ? ' d-none d-xl-block' : ''}`}>
               <div className='faq-thumb'>
                 <Image
                   className='main-thumb  wow fadeInUp'

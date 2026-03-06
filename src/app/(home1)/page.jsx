@@ -15,33 +15,35 @@ const page = () => {
         btnurl='/contact'
         btn2url='/about'
         img='/assets/images/intro/introThumb1_1.png'
+        hideImgMobile
       />
-      <Feature1 />
-      <div style={{ marginTop: '160px', marginBottom: '160px' }}>
+      <Feature1 hideImgMobile />
+      <div className='section-gap'>
         <Cta1 />
       </div>
 
-      <div style={{ marginTop: '260px', marginBottom: '160px' }}>
+      <div className='section-gap section-gap--large'>
         <About1
           img1='/assets/images/about/aboutThumb1_1.png'
           img2='/assets/images/about/aboutThumb1_2.png'
           btnurl='/about'
+          hideImgMobile
         />
       </div>
 
-      <div style={{ marginTop: '120px', marginBottom: '120px' }}>
-        <Choose1 btnurl='/about' />
+      <div className='section-gap'>
+        <Choose1 btnurl='/about' hideImgMobile />
       </div>
-      <Choose4 />
-      <div style={{ marginTop: '120px', marginBottom: '120px' }}>
+      <Choose4 hideImgMobile />
+      <div className='section-gap'>
         <HowWork />
       </div>
 
-      <div style={{ marginTop: '60px', marginBottom: '120px' }}>
-        <Faq1 />
+      <div className='section-gap'>
+        <Faq1 hideImgMobile />
       </div>
 
-      <div style={{ marginTop: '120px', marginBottom: '120px' }}>
+      <div className='section-gap'>
         <Cta1 />
       </div>
     </div>
