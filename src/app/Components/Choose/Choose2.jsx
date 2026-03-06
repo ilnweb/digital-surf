@@ -41,13 +41,7 @@ const Choose2 = ({
                   <div className='wcu-content'>
                     <div className='section-title'>
                       <div className='subtitle wow fadeInUp' data-wow-delay='.2s'>
-                        {subtitle}{' '}
-                        <Image
-                          src='/assets/images/icon/fireIcon.svg'
-                          alt='img'
-                          width={16}
-                          height={17}
-                        />
+                        {subtitle}
                       </div>
                       <h2 className='title wow fadeInUp' data-wow-delay='.4s'>
                         {title}

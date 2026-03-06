@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-const About1 = ({ img1, img2, btnurl }) => {
+const About1 = ({ img1, img2, btnurl, hideImgMobile }) => {
   const t = useTranslations('About1');
   return (
     <section className='about-section fix mt-8'>
@@ -12,7 +12,7 @@ const About1 = ({ img1, img2, btnurl }) => {
         <div className='container'>
           <div className='about-wrapper style1'>
             <div className='row gy-5 gx-60'>
-              <div className='col-xl-6'>
+              <div className={`col-xl-6${hideImgMobile ? ' d-none d-xl-block' : ''}`}>
                 <div className='about-thumb'>
                   <div className='bg'></div>
                   <div className='thumbShape1 d-none d-xxl-block cir36'>
@@ -48,7 +48,7 @@ const About1 = ({ img1, img2, btnurl }) => {
                     />
                   </div>
                   <div className='main-thumb'>
-                    <Image src={img1} alt='img' width={436} height={530} />
+                    <Image className='about-hero-image' src={img1} alt='img' width={436} height={530} />
                   </div>
                   <div className='absolute-thumb float-bob-x'>
                     <Image src={img2} alt='img' width={216} height={108} />
@@ -56,16 +56,10 @@ const About1 = ({ img1, img2, btnurl }) => {
                 </div>
               </div>
               <div className='col-xl-6'>
-                <div className='about-content'>
+                <div className='about-content' style={{ margin: '1rem' }}>
                   <div className='section-title'>
                     <div className='subtitle wow fadeInUp' data-wow-delay='.2s'>
-                      {t('subtitle')}{' '}
-                      <Image
-                        src='/assets/images/icon/fireIcon.svg'
-                        alt='img'
-                        width={16}
-                        height={17}
-                      />
+                      {t('subtitle')}
                     </div>
                     <h2 className='title wow fadeInUp' data-wow-delay='.4s'>
                       {t('title')}

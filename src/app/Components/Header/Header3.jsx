@@ -47,7 +47,7 @@ export default function Header3({ variant }) {
               <div className='cs_main_header_left'>
                 <Link className='cs_site_branding' href='/'>
                   <Image
-                    src='/assets/images/logo/logo.svg'
+                    src='/assets/images/logo/Logo.svg'
                     alt='DigitalSurf Logo'
                     width={300}
                     height={56}

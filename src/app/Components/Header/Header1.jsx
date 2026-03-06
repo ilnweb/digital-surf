@@ -43,11 +43,11 @@ export default function Header1({ variant }) {
         } ${isSticky ? isSticky : ''}`}
       >
         <div className='cs_main_header'>
-          <div className='container'>
+          <div className='container' style={{ padding: '0 1.2rem' }}>
             <div className='cs_main_header_in'>
               <div className='cs_main_header_left'>
                 <Link className='cs_site_branding' href='/'>
-                  <Logo />
+                  <Logo style={{ marginTop: '5px' }} />
                 </Link>
               </div>
               <div className='cs_main_header_center'>
@@ -61,7 +61,7 @@ export default function Header1({ variant }) {
                   <Nav setMobileToggle={setMobileToggle} />
                 </div>
               </div>
-              <div className='cs_main_header_right'>
+              <div className='cs_main_header_right' style={{ padding: '0' }}>
                 <div className='header-btn d-flex align-items-center'>
                   <LanguageSwitcher />
                   <a

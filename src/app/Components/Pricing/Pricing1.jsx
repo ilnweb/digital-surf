@@ -1,7 +1,6 @@
 'use client';
 import { useState } from 'react';
 import PricingCard from '../Card/PricingCard';
-import Image from 'next/image';
 
 const Pricing1 = () => {
   const [isActive, setIsActive] = useState('monthly');
@@ -11,8 +10,7 @@ const Pricing1 = () => {
       <div className='container'>
         <div className='section-title text-center mxw-685 mx-auto'>
           <div className='subtitle'>
-            Our Pricing{' '}
-            <Image src='/assets/images/icon/fireIcon.svg' alt='img' width={16} height={17} />
+            Our Pricing
           </div>
           <h2 className='title'>Choose The Plans That Suits You!</h2>
           <p className='text'>

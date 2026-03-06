@@ -54,19 +54,9 @@ const About = () => {
                   style={{ position: 'relative', zIndex: 99999, marginBottom: '4rem' }}
                 >
                   <img
+                    className='project-details-hero-image'
                     src='/assets/images/about/about-hero.jpg'
                     alt='About DigitalSurf'
-                    style={{
-                      maxWidth: '1000px',
-                      height: 'auto',
-                      borderRadius: '24px',
-                      margin: '0 auto',
-                      marginTop: '-7rem',
-                      display: 'block',
-                      position: 'relative',
-                      zIndex: 99999,
-                      boxShadow: '0 20px 40px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.1)',
-                    }}
                   />
                 </div>
               </div>

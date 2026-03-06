@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-const Choose1 = ({ btnurl }) => {
+const Choose1 = ({ btnurl, hideImgMobile }) => {
   const t = useTranslations('Choose1');
   return (
     <section className='advantage-section fix mt-7'>
@@ -17,13 +17,7 @@ const Choose1 = ({ btnurl }) => {
                   <div className='advantage-content'>
                     <div className='section-title wow fadeInUp' data-wow-delay='.2s'>
                       <div className='subtitle'>
-                        {t('subtitle')}{' '}
-                        <Image
-                          src='/assets/images/icon/fireIcon.svg'
-                          alt='img'
-                          width={16}
-                          height={17}
-                        />
+                        {t('subtitle')}
                       </div>
                       <h2 className='title'>{t('title')}</h2>
                       <p className='section-desc'>{t('content')}</p>
@@ -81,7 +75,7 @@ const Choose1 = ({ btnurl }) => {
                     </Link>
                   </div>
                 </div>
-                <div className='col-xl-6 order-1 order-xl-2'>
+                <div className={`col-xl-6 order-1 order-xl-2${hideImgMobile ? ' d-none d-xl-block' : ''}`}>
                   <div className='advantage-thumb'>
                     <div
                       className='thumb1 img-custom-anim-top wow fadeInDown'

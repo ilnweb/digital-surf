@@ -94,3 +94,53 @@
     margin-top: 8rem !important;
   }
 }
+
+
+/* Choose1 / Advantage content - mobile left alignment */
+@media (max-width: 1199px) {
+  .advantage-content {
+    text-align: left !important;
+    padding-left: 1.25rem;
+  }
+  .advantage-content .checklist-wrapper.style1 {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+  }
+  .advantage-content .checklist.style1 {
+    text-align: left !important;
+    padding-left: 0 !important;
+    width: 100%;
+  }
+  .advantage-content .checklist.style1 li {
+    text-align: left !important;
+    justify-content: flex-start !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
+/* HeroBanner1 - reduce top padding on mobile when image is hidden */
+@media (max-width: 767px) {
+  .intro-wrapper.style1 .intro-content {
+    padding-top: 170px !important;
+    padding-bottom: 40px !important;
+  }
+}
+
+/* Section gap utility */
+.section-gap {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.section-gap--large {
+  margin-top: 260px;
+  margin-bottom: 160px;
+}
+
+@media (max-width: 767px) {
+  .section-gap,
+  .section-gap--large {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+}

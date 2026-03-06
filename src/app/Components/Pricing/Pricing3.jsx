@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import PricingCard from '../Card/PricingCard';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
-import Image from 'next/image';
 
 const Pricing3 = () => {
   const [isActive, setIsActive] = useState('monthly');
@@ -19,8 +18,7 @@ const Pricing3 = () => {
       <div className='container'>
         <div className='section-title text-center mxw-685 mx-auto'>
           <div className='subtitle'>
-            Our Pricing{' '}
-            <Image src='/assets/images/icon/fireIcon.svg' alt='img' width={16} height={17} />
+            Our Pricing
           </div>
           <h2 className='title'>Choose The Plans That Suits You!</h2>
           <p className='text'>
